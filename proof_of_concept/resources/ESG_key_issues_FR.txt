@@ -1,0 +1,51 @@
+Pillier Environnemental:
+	Changement climatique:
+		émissions de carbone;
+		empreinte carbone (d'un produit);
+		financement de l'impact environnemental;
+		vulnérabilité du changement climatique;
+	Capital Naturel:
+		stress hydrique/ pénurie d'eau / rareté de l'eau;
+		biodiversité et utilisation des terres;
+		approvisionnement des matières premières;
+	pollution et déchets:
+		émissions toxiques et déchets;
+		emballage et déchets;
+		déchets électroniques;
+	Opportunités Environnementals:
+		technologies propres;
+		bâtiment écologique;
+		énergie renouvelable;
+
+Pillier Sociale:
+	capital humain:
+		gestion du travail;
+		santé et sécurité;
+		développement du capital humain;
+		normes de travail dans la chaîne d'approvisionnement
+	Responsabilité du produit:
+		Sécurité et qualité des produits;
+		Sécurité chimique;
+		Protection financière des consommateurs;
+		Confidentialité et sécurité des données;
+		Investissement responsable;
+		Assurance santé et risque démographique;
+	Opposition des parties prenantes:
+		Sourcing controversé;
+		Relations avec la communauté;
+	Opportunités sociales:
+		Accès à la communication;
+		Accès à au services financiers;
+		Accès aux soins de santé;
+		Opportunités en nutrition et santé;
+
+Pillier de la gouvernance:
+	Gouvernance d'entreprise;
+		Conseil d'administration;
+		Rémunération;
+		Propriété;
+		Comptabilité;
+	Comportement d'entreprise:
+		Éthique des affaires;
+		Transparence fiscale;
+		
