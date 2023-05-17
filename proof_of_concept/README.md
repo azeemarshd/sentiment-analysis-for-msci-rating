@@ -1,1 +1,1 @@
-# sentiment-analysis-for-msci-rating
+# Proof of concept
