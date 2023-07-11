@@ -1,0 +1,1004 @@
+pollution et déchets [Pillier Environnemental]
+tensor(0.1433) : m. le syndic daniel rossellat, mmes les municipales roxane faraut et 
+stéphanie  schmutz,  mm.  les  municipaux  claude  uldry,  alexandre 
+demetriades et pierre wahlen 
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.0912) : adnane  alexandre,  braunwalder  alex,  bürki  véronique,  daverio 
+justine, girard pierre, jaquier camille, karlen dominique, kirchner 
+volker, rexhaj ermira, seguy alexia, warmenbol claire 
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2030) : aucune  demande  de  modification  n’étant  demandée,  le  procès-verbal  est  réputé  accepté  à 
+l’unanimité avec les remerciements à mme la secrétaire.  
+----
+Capital Naturel [Pillier Environnemental]
+tensor(0.3039) :   m. le président annonce formellement qu’il s’agit de la dernière séance lors de laquelle des 
+bouteilles d’eau sont en stock dans le frigo. a partir de la prochaine séance, les conseillers 
+devront se munir de leur thermos. 
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.1760) :   m. le président donne lecture de la lettre de démission de mme joëlle gerber, verts.  
+  le dernier viennent-ensuite de la liste, m. raul suarez, ayant renoncé à siéger, le bureau 
+a élu m. joël vetter comme membre du conseil pour le groupe des verts. son élection, 
+affichée au pilier public, n’ayant fait l’objet d’aucun recours, il pourra être assermenté au 
+point 7 de l’ordre du jour.  
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.2295) :  mme  la  municipale  roxane  faraut signale  qu’elle  tient  à  disposition  des  personnes  qui 
+reçoivent les documents par voie électronique, des copies papier des annexes du préavis sur 
+les véhicules en format a3, la version électronique étant difficile à lire. elle répond ensuite à  
+m. jean-pierre vuille au sujet du déneigement des trottoirs. ne pouvant agir partout en même 
+temps lors de chutes de neige, elle rappelle que le plan de déneigement est effectué selon un 
+protocole. dans un premier temps, par l’engagement de véhicules pour déneiger les routes et 
+trottoirs, puis complété par un renfort humain pour dégager les andins de neige produits par les 
+lames des véhicules. cette tâche est effectuée au droit des passages piétons, grilles de route, 
+arrêts de bus. cette opération mobilise une vingtaine de personnes pendant toute la durée de 
+l’intervention. dans ces conditions difficiles, ils peuvent imaginer qu’un arrêt de bus ait pu être 
+oublié.
+----
+capital humain [Pillier Sociale]
+tensor(0.2391) : dans tous les cas, ils assurent que les collaborateurs mettent tout en œuvre pour assurer 
+un  service  hivernal  efficace  et  elle  en  profite  pour  les  remercier  pour  leur  travail  et  donne 
+quelques chiffres. lors de cet entretien hivernal, les collaborateurs déneigent 42km de routes,
+----
+capital humain [Pillier Sociale]
+tensor(0.1974) : 36  km  de  trottoirs.  pour  un  cycle  de  déneigement  complet  de  la  ville,  il  faut  compter  un 
+contingent  de  20  collaborateurs,  7  dans  les  véhicules  et  13  pour  le  déneigement  manuel. 
+l’engagement  est  d’environ  4  à  5  heures  pour  le  déneigement  mécanique  et  une  journée 
+complète pour le déneigement manuel. mme la municipale  lui répond également suite à ses 
+interventions au sujet de la plateforme en bois à la rue de la morâche. elle signale que la pose 
+de  bandes  antidérapantes  ne  convenant  finalement  pas,  à  mi-décembre  2022,  un  treillis 
+métallique a été appliqué sur le quai en bois au droit des deux rampes d’accès ainsi que le long 
+du quai du côté de la rue de la morâche. ce dispositif a été complété par des cônes informant 
+les piétons du risque de glissade. 
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2087) :  mme la municipale répond ensuite à m. yves gauthier-jaques au sujet des rodéos urbains 
+au chemin d’eysins. elle l’informe que les contrôles radar effectués de  2018 à  2021 avaient 
+révélé que l’axe du chemin d’eysins ne le catégorisait pas comme prioritaire d’apaisement au 
+vu du constat d’infractions quasiment inexistant. de fait, en 2022, cet axe n’avait pas fait l’objet 
+de  contrôle. néanmoins,  des  plaintes  émergeant  depuis  quelques  mois,  des  actions  de 
+patrouilles  sont  menées  sur  la  zone  avec  également  une  volonté  de  procéder  à  des 
+identifications  du  groupe  de  conducteurs  qui  se  rassemblent  très  régulièrement  dans  une 
+station-service  au  nord  de  la  ville  et,  en  parallèle,  l’unité  radar  cherchait  une  solution 
+d’installation de la remorque, sur cette portion bordée de parcelles privées, afin d’agir avec un 
+élément  extrêmement  visible  et  dissuasif. ils  ont  obtenu  l’accord,  ce  matin,  d’une  ppe  qui 
+accueillera le radar ces prochaines semaines.
+----
+Responsabilité du produit [Pillier Sociale]
+tensor(0.2541) :  mme  la  municipale  stéphanie  schmutz  répond  à  m. pierre  patelli  au  sujet  de  la  santé 
+mentale. en  premier  lieu,  elle  précise  que  les  sujets  liés  à  la  santé  publique,  psychique  ou 
+physique, sont de la responsabilité du canton. cependant, le bien-être de la population est un 
+sujet  qui  tient  à  cœur  à  la  municipalité  et  la  ville  de  nyon  peut  intervenir  indirectement,  en 
+prévention, sur ces questions. le service de la cohésion sociale est attentif au bien-être de ses 
+habitants,  entre  autres,  par  des  locaux  de  quartier. le  service  du  territoire  veille,  dans  la 
+planification de la ville, à la qualité de vie de la population. par exemple, le pdcom peut offrir 
+ou intervenir de manière indirecte à la santé psychique de la population. elle cite notamment 
+par le biais de la diminution de la pollution sonore dont découle une amélioration de la qualité 
+du sommeil qui peut atteindre gravement la santé des personnes.
+----
+capital humain [Pillier Sociale]
+tensor(0.3353) : également en collaboration 
+avec  le  service  de  l’environnement,  quand  ils  travaillent  sur  la  stratégie  de  végétalisation, 
+puisqu’il est scientifiquement prouvé que la nature apporte des bénéfices considérables à l’être 
+humain  sur  le  bien-être  psychique  des  personnes. au  niveau  des  ressources  humaines,  la 
+municipalité  prend  en  compte  les  questions  de  santé  mentale  de  ses  collaboratrices  et 
+collaborateurs et reste toujours à leur écoute. un mandat a également été donné à la société 
+movis qui a le rôle de personne de confiance que tout le monde peut joindre avec une garantie 
+sur la confidentialité des échanges, sur des questions d’ordre professionnel ou privé.
+----
+capital humain [Pillier Sociale]
+tensor(0.1635) : mme  la  municipale répond  également  à  m.  victor  allamand  au  sujet  du  phare,  géré  par 
+caritas vaud et subventionné par le canton. elle l’informe, qu’à ce jour, la municipalité n’a pas 
+été  interpellée  pour  des  situations  critiques  ou  de  manque  de  places  au  phare.  ouverte  en 
+février 2022, cette structure a accueilli 214 usagers différents, 33 femmes et 181 hommes. suite 
+à la question, contact a été pris avec caritas. le phare n’a jusqu’à présent pas été débordé par 
+la  demande.  si  tel  était  le  cas  par  grand  froid,  des  mesures  sont  prévues  en  installant  des 
+matelas dans les corridors et en interpellant l’emus (equipe mobile d’urgence sociale) pour 
+accompagner les personnes sur genève ou lausanne. elle précise également qu’il arrive que 
+des personnes refusent d’être accompagnées dans une structure d’accueil d’urgence malgré 
+les conditions météo. c’est pourquoi le canton n’a pas prévu d’augmenter les places d’accueil 
+à nyon.  
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.1931) : enfin, mme la municipale répond à m. vadim rochat concernant la distribution alimentaire 
+d’urgence. elle signale que la soliderie est en train de monter sa structure qui devrait ouvrir 
+début  septembre  2023.  une  convention  lie  cette  association  à  la  ville  pour  un  montant  de  
+chf 22'000.-. il n’est pas impossible que la ville, ou une association régionale dont nyon fait 
+partie, apporte une aide supplémentaire à la soliderie lors du démarrage de ses activités, selon 
+la situation qui sera réévaluée à ce moment. actuellement, l’eglise évangélique, les cartons du 
+cœur, l’association suspend-us apportent une aide humanitaire aux nyonnais qui en ont besoin. 
+au  niveau  communication,  la  ville  de  nyon,  les  associations  partenaires  ainsi  que  le  centre 
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.1802) : m. claude farine, président de la coreg, informe le conseil que la ville de nyon a été au 
+centre des discussions du dernier conseil intercommunal qui s’est tenu le 14 décembre dernier 
+au casino-théâtre de rolle : trois préavis ont été acceptés, l’un sur le soutien au far°, festival 
+des arts vivants, les deux autres en lien avec les passerelles vélos en projet à nyon, auxquelles 
+la région participera au titre du disren. 
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.1949) : le festival far° est soutenu, outre la loterie romande et des fonds privés, par la ville de nyon, 
+mais également par le canton et la région. l’objet en discussion concernait le renouvellement 
+de la convention qui lie le far° et la région, avec, à la clé, un soutien de chf 330'000.- pour les 
+activités du festival durant la période 2023-2026, soit chf 80'000.- par an, et chf 90'000.- en 
+2024, date anniversaire des 40 ans de la manifestation. un soutien prévu en légère baisse à 
+cause d’un budget plus serré de la région. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2236) : il rappelle que dans le cadre de sa politique culturelle, la région a passé des conventions avec 
+deux festivals : visions du réel et le far°, ainsi qu’avec l’usine à gaz et le casino théâtre de 
+rolle. elle accorde également des subventions régulières à des institutions ou manifestations 
+(ex. la parenthèse, les variations musicales, focale), et ponctuelles à des artistes ou à des 
+associations pour des projets qui touchent tous les arts. au total, la région a consacré en 2022 
+un peu plus de chf 400'000.- à la culture. elle contribue ainsi à soutenir le rayonnement de 
+notre région dans ce domaine. un bilan de dix ans de soutien à la culture (2012-2021) a été tiré 
+par  la  nouvelle  responsable  de  la  culture,  mme  valérie  jeanrenaud,  et  a  fait  l’objet  d’une 
+brochure, dont quelques exemplaires sont à disposition pour les personnes intéressées. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2361) : les quatre dernières années se sont avérées difficiles pour le far°, avec les travaux à l’usine à 
+gaz et le covid, ce qui a obligé le festival à se redéfinir. ce dernier a finalement émigré au 
+centre-ville et bénéficie maintenant d’un nouveau lieu, les marchandises, pour suivre de jeunes 
+artistes et jouer son rôle de fabrique des arts vivants. de plus, le projet artistique de la nouvelle 
+directrice,  mme  anne-christine  liske,  arrivée 
+le  conseil 
+intercommunal  de  poursuivre  son  soutien.  cette  dernière  a  en  effet  l’intention  d’élargir  le 
+rayonnement du festival, avec des événements festifs, notamment musicaux, mais aussi une 
+attention au jeune public, et un effort sur la médiation et la communication. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2333) : les deux autres préavis touchaient le projet de passerelles prangins-nyon et bois-bougy. la 
+région soutiendra cet important dossier par le biais du disren, le dispositif d’investissement 
+solidaire de la région de nyon, qui permet à une commune, ou à un groupe de communes, 
+engagées dans un projet qui a une dimension régionale, de bénéficier d’une subvention de la 
+région.  dans  le  domaine  de  la  mobilité,  les  projets  d’agglomération  financés  par  la 
+confédération sont éligibles au disren. c’est le cas des deux projets de passerelles modes 
+doux, acceptés dans les pa 2. 
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.2027) : en ce qui concerne la passerelle prangins-nyon, la subvention qui a été acceptée se monte à 
+chf 189'875.-. pour arriver à cette somme, la participation de prangins au projet a été déduite, 
+puisqu’elle ne fait plus partie de la région. en revanche, pour ce qui concerne la passerelle de 
+bois-bougy, la subvention  a été calculée sur l’investissement total  de nyon et se montera à 
+chf 346'311.-. c’est donc une décision positive pour nyon et un élément dont le conseil tiendra 
+certainement compte au moment de débattre de ce projet.  
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.2720) : lors de cette séance, le conseil intercommunal a également accepté un budget 2023 équilibré, 
+qui prévoit, après plusieurs années de déficit, un bénéfice de chf 6'000.-. deux éléments ont 
+permis d’améliorer la situation : tout d’abord l’entrée dans la région de la commune de crans, 
+mais  aussi  la  hausse  de  la  cotisation  de  chf  20.-  à  chf  25.-  par  habitant.  cette  hausse 
+permettra d’une part de rattraper les amortissements qui n’avaient pas suffisamment été faits 
+dans le passé, mais aussi de mieux assumer les missions de la région, notamment le soutien 
+au sport.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2410) : enfin, le conseil intercommunal a adopté un crédit de chf 250'000.- sur 5 ans pour financer 
+un programme en faveur de la biodiversité. jusqu’ici, la région agissait de deux manières : elle 
+finançait, en collaboration avec certaines communes ou des propriétaires privés, la préservation 
+de corridors biologiques sur des parcelles non agricoles. dans notre région très urbanisée, mais 
+également  très  cultivée,  les  corridors  biologiques  permettent  à  la  faune  de  se  déplacer 
+(nourriture, reproduction ou la survie face aux prédateurs). elle appuyait aussi les réseaux agro-
+écologiques.  ici,  ce  sont  les  agriculteurs  qui,  par  secteur  géographique,  s’unissent  pour 
+développer  la  biodiversité  sur  des  parcelles  en  jachère.  deux  démarches  proches,  mais  qui 
+étaient souvent confondues.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3326) : la  région  a  décidé  de  réorganiser  son  travail  en  faveur  de  la  biodiversité.  des  projets 
+thématiques  seront  proposés  chaque  année  à  l’ensemble  des  communes  membres.  des 
+mesures, déjà expérimentées auparavant, seront poursuivies (par exemple, la création de plans 
+d’eau pour la reproduction  des batraciens, la plantation de chênes), et la  palette des projets 
+sera agrandie (ex. lutte contre les espèces exotiques envahissantes, revitalisation des berges 
+des cours d’eau, protection de l’avifaune et des chauve-souris). enfin, le soutien aux réseaux 
+agro-écologiques seront toujours soutenus via le disren. l’ensemble du programme en faveur 
+de la biodiversité se déploiera avec la collaboration et le soutien financier du canton.    
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2769) : rapports de commission (minorité/majorité) – préavis n° 2022/42 
+bâtiment eca 1484 à la rue des marchandises 9 - demande d’un crédit de chf 318’000.- 
+ttc pour la démolition du bâtiment et la création de 14 places de parc. 
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2797) :  m. gianluca solimine se permet de prendre immédiatement la parole au sujet de l’objet traité 
+et  souhaite  partager  quelques  éléments  qui,  à  ce  stade  du  débat  et  de  la  délibération,  lui 
+semblent essentiels pour que la délibération puisse advenir de la manière la plus constructive 
+possible  et,  notamment,  de  sorte  que  le  conseil  puisse  avoir  l’ensemble  de  l’information 
+contextuelle  par  rapport  à  la  démarche  d’ecum  qui  les  concerne  directement,  m.  raffaele 
+giannattasio et lui-même. compte tenu de ce qui est mentionné dans les rapports, il tient 
+à rectifier qu’ecum n’a, à ce jour, absolument aucune mainmise sur la potentielle occupation 
+et prise en gestion du bâtiment ou des douze box à la rue des marchandises 9, contrairement 
+à ce qui a été laissé entendre par les rapports. en effet, l’objet à traiter du présent ordre du jour 
+consiste à délibérer et voter sur la démolition et non pas sur les potentielles affectations à venir.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.3211) : ecum, par son atelier d’intelligence collective réalisé le 7 octobre, a simplement démontré qu’il 
+y  a  un  vif  intérêt  citoyen  à  faire  autre  chose  de  ce  bâtiment  qu’une  simple  destruction  avec  
+14 places de parc. parallèlement, il tient à informer le conseil que lui-même et m. giannattasio, 
+avaient spontanément entrepris une démarche auprès du président du conseil afin de vérifier 
+s’il était nécessaire, ou pas, de se récuser. suite aux échanges avec m. le président, et après 
+analyse de l’article 60 du règlement qui indique qu’un membre du conseil ne peut pas prendre 
+part à une décision ou discussion lorsqu’il a un intérêt personnel ou matériel à l’affaire à traiter, 
+il en ressort qu’ils ne doivent pas se récuser car, à ce stade, ils n’ont pas un intérêt personnel, 
+ni matériel sur l’affaire. il se permet juste de citer l’analyse qu’a faite m. le président : « il y a
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2905) :  une discrépance entre le rapport de majorité qui tient pour acquise l’implication d’ecum dans 
+le futur du bâtiment et ce qui ressort de la synthèse ecum qui a été envoyée au rapporteur ». ce document, et il trouve cela dommage, n’a pas été transmis à l’ensemble du conseil. il s’agit 
+d’une  synthèse  de  trois  pages,  avec  six  objectifs,  qui  aurait  sans  doute  permis  d’avoir  une 
+meilleure  compréhension  de  la  méthodologie  qui  a  été  entreprise  par  ecum. il  poursuit  la 
+citation de m. le président : « selon ma compréhension, il n’y a en réalité qu’un lien très indirect 
+entre la décision que le conseil va prendre et l’éventuelle implication d’ecum dans l’avenir de 
+ce bâtiment. de plus, je comprends qu’ecum ne défend pas ici un intérêt personnel, mais un 
+intérêt collectif (il en irait autrement si la démolition entraînait de facto l’attribution d’un mandat 
+à  ecum ».
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2522) : il  remercie  le  conseil  de  prendre  bonne  note  des  éléments  qu’il  vient  de 
+contextualiser et reste à disposition pour éclaircir certains éléments qui pourraient être obscurs.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.3412) : m. yves gauthier-jaques les remercie pour cette prise de parole. pour sa part, il est tout 
+à fait d’accord avec eux, il n’y a pas d’article 60 à faire valoir dans ce cas. il trouve toutefois un 
+peu dommage et difficile d’accepter, que les membres de ce conseil qui ont été indirectement 
+informés des teneurs des discussions au sein de la commission, puisqu’en finalité ils sont quand 
+même venus devant la commission présenter un projet, dont ils sont les deux signataires avec 
+une troisième personne. pour lui, ils sont partie prenante et il trouve cela fort regrettable. ils les 
+invitent au moins à s’abstenir pour qu’il y ait une égalité de traitement par rapport à cette affaire.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2282) :  m.  alexander  federau  pense  qu’avec  ce  préavis  on  envoie  un  très  mauvais  signal  à  la 
+population nyonnaise. il commence par rappeler que la municipalité ne sait pas, aujourd’hui, ce 
+qu’elle compte faire, à terme, de ce secteur. il est vraiment étonné de sa proposition de démolir 
+ce  bâtiment  maintenant,  alors  que  rien  ne  l’y  oblige. il  ne  comprend  pas  qu’en  2023,  nous 
+soyons en train de reproduire l’erreur du parking du martinet. il rappelle que le bâtiment avait 
+été  démoli  prématurément  pour  déboucher  sur  un  parking  qui  devait  être  temporaire  et  ce 
+temporaire donne, depuis 17 ans, le lieu le plus laid de la ville. comme on ne sait pas ce qu’il 
+adviendra  d’usteri  à  terme,  les  places  de  parking  proposées  en  surface  peuvent  très  bien 
+devenir  permanentes  dans  une  partie  de  la  ville  qui  en  regorge. il  croyait  que  l’idée  était 
+d’enterrer les places de parking à perdtemps et non d’en rajouter en surface.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3985) : il n’y a pas de 
+raison ni d’enlaidir, ni d’appauvrir aujourd’hui ainsi la ville. en effet, ce bâtiment apporte de la 
+valeur  et  plusieurs  acteurs  demandent  de  le  conserver. l’association  pro  novioduno,  dont 
+l’objectif est la sauvegarde du patrimoine artistique et historique de la ville de nyon ainsi que 
+son développement harmonieux, a demandé, en juin 2022, de conserver ce bâtiment et qu’il 
+soit  revalorisé  pour  de  l’hébergement  ou  d’autres  activités  d’utilité  publique. ensuite, 
+l’association perdtemps-usteri a fait opposition à sa démolition. c’est cette association qui a 
+approché l’association ecum pour proposer une réflexion quant à sa revalorisation. le projet 
+qui en est sorti, et qui a été présenté en commission et transmis à la municipalité, s’est poursuivi 
+par un atelier participatif le 7 octobre 2022. le far° et visions du réel ont participé à cet atelier 
+et  ont  manifesté  leur  soutien  par  rapport  à  cette  démarche.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3016) : l’endroit  est  intéressant 
+culturellement, proche du centre et à proximité immédiate de deux espaces culturels. ensuite, 
+un architecte, m. philippe meylan, qui est directeur du patrimoine bâti à la ville de genève, a lui 
+aussi fait opposition. d’après lui, le bâtiment ne présente pas de danger évident de déficience 
+structurelle. bien entendu, il n’est pas aux normes électriques et il faut remplacer des tuyaux. tout ça pour dire que ce bâtiment a encore un potentiel d’utilisation. il est plus que temps de 
+changer de philosophie, de toujours vouloir démolir l’existant pour repartir d’une feuille vierge, 
+et plutôt chercher à réparer et entretenir les choses. nous parlons d’un bout de notre patrimoine 
+artisanal. ce qui le chagrine le plus, c’est que la société civile, dont il vient d’évoquer quelques 
+acteurs, n’a pas du tout été écoutée ou consultée pour ce préavis. c’était pourtant une demande 
+explicite de ce conseil.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2966) : il rappelle que dans les conclusions du rapport 2021/007, accepté le  
+5 novembre 2021, dont le préavis demandait l’organisation d’un atelier créatif pour réfléchir au 
+futur du secteur usteri-st-jean, la commission émettait le vœu que cet atelier créatif, composé 
+à  l’heure  actuelle  exclusivement  d’experts,  intègre  également  des  usagères  et  usagers,  des 
+membres de la commission d’urbanisme et des associations pertinentes pour le secteur usteri. a sa connaissance, aucune démarche en ce sens n’a eu lieu pour l’instant, en tous les cas pour 
+le préavis traité. une large consultation permettrait pourtant de libérer l’imagination pour aboutir
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.4387) : à un projet intéressant. des projets similaires de valorisation le prouvent. a genève, une zone 
+expérimentale  a  été  mise  en  place  à  châtelaine  qui  compte  désormais  une  ressourcerie 
+urbaine, une scierie et une petite brasserie. a lausanne, le bâtiment à la rue du simplon 26 est 
+devenu une galerie avant sa démolition. il demande de donner une chance à ces démarches 
+participatives et, si elles ne sont pas conclusives, le bâtiment pourra être détruit lorsqu’un projet 
+viable sera sur la table. en résumé, il appelle le conseil à refuser ce préavis. il s’agit d’un type 
+de démarche qui doit appartenir au passé, tant il envoie de mauvais signaux. c’est un monde 
+différent dont nous voulons aujourd’hui, un monde qui répare, qui rénove, qui entretient avec 
+une municipalité à l’écoute dans une ville qui donne une chance à la participation, à l’innovation 
+et au partage.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3380) :  mme carinne bertola, en lisant le rapport de minorité, a été surprise par la précipitation de 
+certains  à  demander  la  démolition  du  bâtiment  des  garages  d’usteri,  avec  comme  seule 
+nécessité  invoquée,  la  volonté  de  créer  14  places  de  parking. il  lui  semble  que  les  moyens 
+demandés  par  ce  préavis  pourraient  être  mieux  investis,  alors  qu’un  certain  nombre  de 
+personnes  s’interrogent  sur  cette  démolition,  comme  l’association  des  habitants  du  quartier 
+perdtemps-usteri, dont certains sont présents dans la salle, un courrier de pro novioduno ainsi 
+que  divers  architectes  et  urbanistes  spécialisés  dans  le  réemploi  et  la  défense  des  sites 
+artisanaux qui  pensent que raser ce quartier équivaut à  effacer une partie  de  l’identité de  la 
+ville.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3705) : elle rappelle que le vœu avait été émis par des conseillers dans le préavis 2021-007 de 
+poursuivre la démarche participative pour perdtemps-usteri, surtout qu’il existe maintenant ce 
+concept  d’urbanisme  transitoire  présenté  par  le  groupe  ecum,  concept  développé  à  la 
+demande de l’association perdtemps-usteri et dont l’objectif est de transformer temporairement 
+cette friche artisanale en un site d’animation provisoire et saisonnier, le tout dans une démarche 
+collaborative tant avec les autorités que la population. autrement dit, ce qu’on appelle une vraie 
+démarche citoyenne. a son avis, le risque est aujourd’hui grand de se hâter à démolir alors que 
+le conseil attend aussi les premiers retours des ateliers créatifs avec les experts choisis par la 
+ville  et  le  travail  des  quatre  chefs  de  projets  engagés  pour  perdtemps,  autant  d’avis 
+certainement très éclairés sur cette question.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.3378) : elle trouverait donc dommage que la municipalité, 
+ainsi que le conseil, ignorent le rapport ecum, ainsi que les vœux des habitants du quartier, 
+de spécialistes ou d’associations culturelles reconnues. il lui semble que l’urgence devrait être 
+de surseoir à cette démolition et de réfléchir avec toutes les parties prenantes au devenir de ce 
+quartier emblématique pour nyon. elle souhaite le renvoi de cet objet à la municipalité pour une 
+réévaluation du sujet au vu des éléments apportés ce soir.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2767) : m.  claude  farine  signale  que  le  groupe  socialiste  soutiendra  le  rapport  de  majorité  qui 
+demande de ne pas autoriser la municipalité à démolir l’immeuble de la rue des marchandises 
+9, et il en donne les explications. tout d’abord, il n’y a aucune urgence à agir de la sorte : le 
+plan  d’affectation  d’usteri  n’en  est  qu’à  ses  balbutiements  et  beaucoup  d’autres  projets 
+occuperont  notre  ville  ces  10-15  prochaines  années.  de  plus,  démolir  un  immeuble  pour  le 
+remplacer par 14 places de parc pour les voitures, ne fait pas vraiment sens à l’heure où l’on 
+cherche à rendre la ville aux piétons et à la mobilité douce. ensuite, la municipalité dit que le 
+bâtiment  est  vétuste,  en  très  mauvais  état  et  qu’il  vaut  mieux  qu’il  soit  livré  aux  pelles 
+mécaniques. il demande de le laisser plaider pour ce vieillard de 93 ans, puisqu’il date de 1930.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2198) :  il a été dessiné par l’architecte louis genoud. qui était-il ? pourquoi l’a-t-il construit, dans quel 
+contexte, pour répondre à quel besoin exact ? le préavis ne s’attarde que peu sur cette histoire, 
+pourtant, en interrogeant le passé, on découvre que louis genoud fut, à nyon, un architecte 
+très actif avant-guerre : durant cette même année 1930, il dessine la salle de la colombière, 
+puis  le  cinéma  capitole  en  1933,  puis  le  bel  immeuble  d’angle  de  la  rue  neuve  où  est 
+maintenant installé le restaurant tête de course, entre 1936 et 1941. en 1934, louis genoud 
+dessine encore la boulonnerie kocher, derrière la gare. l’entreprise l’occupera jusqu’en 1982, 
+date où elle cesse ses activités. acheté par la ville peu après, le bâtiment accueillera les si 
+avant que ces derniers ne déménagent à champ-colin. la municipalité décide alors, en 2007, 
+de  le  raser. malgré  quelques  oppositions  et  une  pétition,  le  conseil  accepte.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2296) : le  bâtiment, 
+considéré, encore aujourd’hui, comme emblématique de l’architecture industrielle des années 
+30, est condamné pour deux raisons : d’une part, il est jugé vétuste, en mauvais état, et d’autre 
+part, il faut faire place nette pour le futur quartier du martinet. or, quinze ans après, ce périmètre 
+n’est toujours pas construit.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2949) : leur conviction est donc, et cet exemple le montre, qu’il n’est absolument pas nécessaire de 
+raser  le  bâtiment  des  marchandises  avant  qu’on  ne  sache  exactement  ce  que  le  quartier 
+d’usteri  va  devenir.  ce  bâtiment  est  certes  un  objet  moins  important  dans  l’œuvre  de  louis 
+genoud,  un  architecte  qui  a  été  le  témoin  d’une  période  charnière  de  l’architecture  du  
+20e siècle, le début de la modernité.  il n’est pas dit qu’il ne puisse pas encore servir, rebondir 
+et assumer une nouvelle fonction sociale ou culturelle.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3653) : en  résumé,  le  groupe  socialiste  demande  donc  à  la  municipalité  d’abandonner  le  projet  de 
+démolition,  pour  l’instant  au  moins,  de  prendre  en  compte  les  propositions  de  l’association 
+ecum et d’étudier comment il serait possible de laisser s’exprimer la créativité, l’inventivité à 
+cet  endroit  pendant  les  10  ou  15  prochaines  années.  avec,  pourquoi  pas,  une  démarche 
+participative, qui permettrait d’associer aussi les habitants de ce quartier. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.4092) :  m.  jacky  colomb  pense  que  la  proposition  de  conserver  le  bâtiment  à  la  rue  des 
+marchandises 9 comporte de nombreux inconvénients, voire de dangers. il va nécessiter du fait 
+d’un changement d’affectation, une mise à l’enquête, une mise aux normes environnementales, 
+des coûts de rénovation prohibitifs, des risques de surprise lors de la rénovation et des surcoûts 
+additionnels. tout  ça,  pour  une  occupation  temporaire  et  saisonnière. en  revanche,  la 
+démolition  du  bâtiment  crée  une  ouverture  intéressante  dans  la  géographie  du  quartier. l’espace,  ainsi  libéré,  additionné  au  terrain  en  herbe  situé  à  l’arrière  du  bâtiment  le  long  de 
+représente  une  surface  d’environ  1300  m2  qui  pourrait  être 
+l’avenue  perdtemps 
+avantageusement aménagée en place d’agrément. en ce sens, la municipalité s’est dite ouverte 
+à diverses propositions émises en commission, et justement relevé dans le rapport de minorité.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3281) : une place de jeux pour enfants, un espace de convivialité, de rencontres, une zone de parcage 
+vélos  et  autres  engins  de  mobilité  active,  abrité  ou  non,  une  zone  de  portakabins  légaux  et 
+sécurisés pour diverses activités associatives ou pour l’accueil de personnes en détresse. cette 
+solution aura le mérite de convenir au plus grand nombre : les habitants du quartier, les usagers 
+de mobilité active, les associations nyonnaises. la solution des portakabins offre, en outre, de 
+nombreux  avantages  par  rapport  à  l’occupation  problématique  de  box  à  voitures  exigus  et 
+inconfortables. en effet, des portakabins offrent un confort nettement supérieur en termes de 
+chauffage,  luminosité  et  hygiène. ils  permettent  de  dimensionner  les  locaux  de  manière 
+modulable  ce  qui  n’est  pas  le  cas  des  garages  proposés  initialement. cette  solution 
+n’hypothèque pas le devenir du quartier en figeant une construction pendant des décennies.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.3107) : il 
+souligne, en outre, que la municipalité ne semble pas accrochée à l’idée des 14 places de parc 
+qui, on l’a vu, ne font pas l’unanimité ni dans l’un, ni dans l’autre rapport. il engage le conseil à 
+voter  le  préavis  42  qui  permettra,  en  tout  temps,  un  développement  urbain  cohérent  de  cet 
+espace de notre ville en mutation.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3802) : quand  il  entend  parler  de  ce  bâtiment,  m.  daniel  grosjean  a  l’impression  que  l’on  veut 
+démonter le château. il ne faut pas perdre de vue que l’utilisation future de ces locaux sera de 
+la responsabilité de la municipalité, dont les règles ont été énoncées dans les rapports. ainsi, 
+cette  transformation  ne  va  pas  se  réaliser  avec  un  simple  coup  de  pinceau.  ce  sera  une 
+réhabilitation lourde, ainsi les deniers publics qui seront mis à contribution pourraient avoir une 
+meilleure  utilisation,  comme  améliorer  la  sobriété  énergétique  des  bâtiments  existants  déjà 
+utilisés.  le  projet  de  démolition  permettrait  une  libération  de  l’espace  pour  le  futur  quartier 
+usteri.  il  demande  de  soutenir  le  préavis  pour  permettre  d’avoir  un  nouvel  espace  avec  les 
+arguments énoncés par m. colomb. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3049) : m. olivier monge précise que ce bâtiment est voué à disparaître, mais il est vrai que la minorité 
+de la commission n’a pas amendé le point 2 des conclusions. toutefois, dans les conclusions 
+du rapport de minorité, il est précisé qu’il a été donné des exemples d’utilités qui pourraient être 
+faites de la surface dégagée à cet endroit. on ne sait pas encore ce qu’il adviendra de cette 
+surface, mais, plutôt que de ne rien faire, un projet viable peut y prendre place qui peut être 
+communautaire ou participatif. la municipalité a sans doute de bonnes idées à proposer. la 
+commission est unanime pour dire qu’ils ne sont pas enchantés de voir 14 places de parc à cet 
+endroit.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.1787) : m. yves gauthier-jaques rebondit sur quelques propos tenus. il revient sur les propos de 
+m. federau qui parlait  de  libérer  l’imagination. la question à se poser  et de savoir pourquoi 
+l’imagination ne peut pas se libérer sur l’espace complétement ouvert et de réfléchir à quelque 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3413) :  chose  de  nouveau. il  a  l’impression  que  c’est  uniquement  à  travers  le  bâtiment  qu’il  pourra 
+libérer l’imagination. il signale à mme bertola que la commission a été claire que ce soit dans 
+le rapport de minorité ou majorité, il y a une volonté que cet espace ouvert ne soit pas forcément 
+attribué  à  des  places  de  parc. ils  ont  essayé  d’avoir  des  informations  pour  amender  les 
+conclusions  et  avoir  des  portakabins. c’est  là  que  l’enjeu  pourrait  être  intéressant  pour  les 
+différentes associations, de réfléchir sur cet espace ouvert, de venir avec des propositions et, 
+en  finalité,  aménager  cet  espace  ouvert  pour  qu’il  devienne  une  zone  de  rencontres  et 
+d’activités, pas uniquement saisonnières. quant à la question des choix que le conseil devra 
+prendre  (ddp,  bail  à  loyer),  les  enjeux  financiers  pour  la  ville  ne  seront  pas  les  mêmes.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2818) : la 
+question qui se pose est, quelle que soit l’association qui sera mandatée, qu’il doive y avoir un 
+appel d’offres public. il n’y a aucune raison pour qu’ecum puisse être bénéficiaire. il y avait un 
+peu de confusion au sein de la commission. il existe, pour ecum, d’autres espaces dans la 
+ville, notamment au chemin de bourgogne, où le bâtiment est en meilleur état. pour conclure, 
+il demande le vote nominal.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2779) :  m. le municipal claude uldry pense qu’il n’est pas nécessaire de faire un long plaidoyer vu 
+que  les  positions  sont  relativement  clairement  exprimées. néanmoins,  il  donne  quelques 
+précisions puisque les deux séances de commission ont eu lieu il y a quelques mois. il a été dit 
+plusieurs fois et il le confirme, la municipalité est clairement ouverte à ne pas faire de places de 
+parc, mais peut-être à réaliser un couvert à vélos ou planter plus d’arbres. ils sont tout à fait 
+ouverts,  tout  en  restant  dans  le  crédit  accordé,  voire  avec  un  petit  complément  des  crédits 
+cadres à disposition. il souhaite être clair, même si cela a déjà été dit, s’il s’agit d’une location 
+d’un bâtiment, même une simple mise à disposition gratuite, pour tout accident la municipalité 
+restera responsable de son bâtiment.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3494) : quand une personne est propriétaire d’un logement et 
+qu’elle  le  loue,  s’il  n’est  pas  aux  normes,  ce  n’est  pas  de  la  faute  du  locataire  s’il  se  passe 
+quelque chose de malheureux. a partir du moment où tout le monde en est conscient, il ne faut 
+pas simplement dire non à une démolition, mais il faut envisager de faire quelque chose de ce 
+bâtiment, même si c’est pour une durée de 5, 10 ou 15 ans. cela signifie que cela nécessite un 
+projet, un appel d’offres et une rénovation du bâtiment. il l’a dit en commission et le répète, il y 
+aura  un  changement  d’affectation. aujourd’hui,  ce  sont  des  garages,  dans  lesquels  une 
+association a présenté un projet, mais ce n’est pas forcément celle qui aura ce bâtiment, mais 
+on  ne peut  pas  dans  des  garages, mettre des gens  qui travaillent ou font des  présentations 
+sans changer l’affectation.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3533) : il revient au devoir du propriétaire, changement d’affectation signifie 
+mise à l’enquête, mise à l’enquête veut dire mise aux normes, pas uniquement électriques, mais 
+également eca et autres normes. aujourd’hui, lorsque l’on met à l’enquête, ils doivent aussi 
+respecter les normes énergétiques qui sont demandées dans toute rénovation conséquente. or, cela sera une rénovation conséquente. cela peut être fait, mais il y a un certain nombre de 
+projets qui sont peut-être plus urgents. il précise encore, sans entrer dans la polémique, que 
+lorsque des personnes parlent de toujours démolir, il signale que cela fait seize ans qu’il est à 
+la municipalité et un seul bâtiment a été démoli, celui dans le secteur martinet. peut-être que 
+c’était trop tôt, mais aujourd’hui il est possible de mettre la soliderie dessus. avec le bâtiment 
+dessus, il aurait été impossible de le faire.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2849) : un élément qui a été cité par certains membres du 
+conseil  communal,  serait  la  possibilité  de  faire  autre  chose  sur  la  parcelle  qui  serait  vide. lorsqu’ils étudient un bâtiment pour un projet de rénovation, ils font faire une étude historique. cette étude historique est faite, la plupart du temps, par une personne qui connaît très bien la 
+ville  de  nyon,  mme  catherine  schmutz. une  étude  historique  a  même  été  faite  un  bâtiment 
+récent, nyon-marens. concernant le bâtiment de la rue de marchandises, celui-ci n’a aucune 
+connotation  historique,  il  s’agissait  de  deux  logements  et  des  garages. si  on  peut  partir  du 
+principe  que  pro  novioduno  va  défendre  cette  non-démolition,  il  pense  que  ni  le  canton,  ni 
+d’autres associations ne vont s’intéresser à ce bâtiment.
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.1717) : rapport de commission – préavis n° 2022/76  
+aménagement de la grande jetée - réfection de l’espace multisport sur sable – demande 
+d’un crédit de réalisation de chf 130'000.- ttc. 
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.1812) : m. sacha soldini fait remarquer que tout le monde connaît sa position à ce sujet, il ne va pas 
+en rajouter. il pense que cette pétition envoyée à la municipalité est un signal assez fort, c’est 
+pour cela qu’il demande le vote nominal.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2120) : m. vadim rochat rappelle que, certes ce n’est pas une obligation légale, mais afin d’envoyer 
+un signal encore plus fort et donner une certaine légitimité démocratique à cet outil qu’est la 
+pétition, il pense que ce serait utile que cette commission, qui ne se réunit pas très souvent, 
+compte les voix pour savoir le nombre de nyonnaise et nyonnais qui ont signé, spécialement 
+dans  le  cadre  d’un  objet  comme  celui-là,  où  potentiellement  beaucoup  de  personnes  de 
+communes relativement lointaines ont ajouté leur signature au document.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2048) : m. sacha vuadens rappelle qu’il s’agit de se prononcer sur la légalité d’une pétition à renvoyer 
+à  la  municipalité.  il  ne  s’agit  pas  d’un  débat  de  fond,  même si  certaines  personnes  pensent 
+savoir  ce  que  va  devenir  le  stade  de  marens.  en  lisant  les  documents,  on  constate  qu’il  va 
+surtout y avoir des études pour cet espace vert. il ne voit pas pourquoi le vote doit être nominal. 
+il trouve que c’est prendre un bazooka pour tirer sur une mouche, surtout que le débat de fond 
+n’est pas là.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2805) : m.  yves  gauthier-jaques  se  perd  un  peu  sur  la  notion  de  vote  du  conseil.  il  demande 
+quels sont les articles pour étayer cette décision d’un vote du conseil. a sa connaissance, il 
+s’agit d’un simple renvoi à la municipalité puisque la commission a siégé et qu’elle a donné un 
+avis favorable à ce que ce soit traité par la municipalité. m. le président lui précise qu’il s’agit 
+d’un vote de renvoi à la municipalité. a la lecture de l’article 73, on peut considérer que l’objet 
+est purement de compétence municipale et le conseil vote sur un renvoi ou l’on considère qu’il 
+s’agit d’un objet de compétence du conseil et le vote se fait sur la prise en considération ou 
+non, ce qui revient au-même. pour lui, il s’agit d’une prise en considération.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2651) : m.  jacky  colomb  fait  remarquer  qu’il  s’agit  d’un  droit  démocratique  fondamental.  tout  le 
+monde a le droit de signer une pétition, habitant de nyon, ou pas. en ce domaine, il s’agit d’un 
+objet qui intéresse fortement les gens de la région puisque les petits footballeurs viennent de 
+toutes les communes alentour. il ne voit pas dans un premier temps, ce qui aurait justifié de 
+faire  le  tri  dans  les  signatures.  en  ce  qui  concerne  l’acceptation  de  cette  pétition,  si  la 
+commission a jugé qu’elle était recevable dans sa forme, qu’elle n’était ni insultante, ni débordait 
+du cadre juridique, il ne voit pas en quoi le conseil pourrait la refuser. la seule chose qu’il peut 
+faire c’est de voter à  l’unanimité pour préserver le droit démocratique. cette pétition ne plaît 
+peut-être pas à certains, mais une autre, une autre fois, leur conviendra.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.3225) : mme béatrice enggist souhaite répondre à m. vadim rochat et lui rappelle que lors de la 
+commission, comme indiqué dans le rapport, un vote démocratique a été effectué au sein de 
+tous les membres de la commission qui a siégé au complet. le résultat du vote pour savoir s’il 
+fallait recompter ou pas, était qu’il y avait 2 pour, 5 contre et 3 abstentions. la commission a 
+démocratiquement voté contre.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2655) : m. pierre patelli rappelle la tradition au sein de la commission des pétitions, ils comptent la 
+provenance (nyon, région, hors du canton) ceci pour donner plus ou moins d’importance à la 
+signature.  on  sait  que  dans  ce  cas,  il  y  a  un  enjeu  politique,  que  certains  ont  basé  leur 
+campagne politique sur un soutien à ce stade, donc certains avaient un enjeu à ne pas compter. 
+il espère que la prochaine fois le décompte sera fait.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2932) : mme laure damtsas fait remarquer qu’on ne peut pas être ville centre pour la péréquation et 
+compter les votes pour une pétition. il faut être logique.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2413) : au  vote  nominal,  le  conseil  décide  par  83  oui  et  1  abstention  la  prise  en  considération  et 
+transmet la pétition à la municipalité comme objet de sa compétence. (votes en annexe) 
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2336) :  m. victor allamand pense que les conseillers vont le trouver un peu long et il s’en excuse 
+par avance, mais il s’agit là de sa dernière intervention devant l’assemblée, puisqu’à la fin de 
+cette séance, il démissionnera du conseil communal de nyon. il demande donc à monsieur le 
+président du conseil de bien vouloir prendre acte de sa démission en date du 31 janvier 2023. tout d’abord, il souhaite remercier celles et ceux avec qui il a eu l’honneur de travailler au mieux 
+pour notre communauté. les nombreuses années passées sur les bancs de cette assemblée 
+et qui aujourd’hui lui reviennent en mémoire, l’appellent à essayer d’en tirer un bilan qu’il aurait 
+souhaité  plus  positif. au  moment  de  quitter  le  conseil,  péripétie  qui  réjouira  certains  parmi 
+l’assemblée, il faut reconnaître qu’il lui est loisible de s'interroger sur ce à quoi il a contribué 
+durablement en faveur de notre ville. le choc peut être rude !
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2502) : pour sa part, sa contribution a 
+consisté à l’ajout du cartouche en pied de la page jaune du titre des préavis. il a naturellement 
+aussi déposé postulats, motions, interpellations, entre autres pour les rives du lac, la rdu, etc. mais rien n’a abouti.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2122) : cette introspection lui a permis de se souvenir, peu après l’arrivée au pouvoir de monsieur le 
+syndic, des réunions informelles qu’il avait organisées, notamment avec nicolas vultier, afin de 
+connaître les attentes des nyonnais. un jour, il était arrivé à la brétèche avec, sous le bras, un 
+impressionnant  paquet  de  plans  qui,  après  énumération,  s'avéraient  être  uniquement  des 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2948) : études des rives du lac remontant à mathusalem. il avait conclu cette séance en disant que 
+l’époque où l’on faisait des études pour remplir les tiroirs était révolue, mais qu’on avancerait 
+petit à petit, chaque fois que possible. ces propos l'avaient enthousiasmé et ils auguraient d’un 
+très bel avenir. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2628) :  en  fait,  durant  les  dernières  législatures,  on  a  connu  une  croissance  d’études  tous  azimuts, 
+augmentée par les démarches participatives et autres laboratoires d’usages. les constructions 
+provisoires, tels que le chapiteau de rive que l’on démonte et remonte une ou deux fois l’an 
+afin de rester dans la légalité. il parle ensuite des démarches participatives, lesquelles semblent 
+gommer  la  fonction  exécutive  de  la  municipalité,  puisqu’in  fine,  on  propose  aux  nyonnais 
+d’effectuer des choix forcément arbitraires par méconnaissance. face à ce qu’il lui semble être 
+souvent du bricolage provisoire, il rappelle l’avenue cortot construite il y a plus de soixante ans, 
+en moins d’un lustre, avec des moyens locaux, dirigés par bernhard willy, ancien chef de la 
+voirie. route dont la longueur est équivalente à la liaison rdu pour laquelle un ept « chef de 
+projet » a été employé à plein temps pour étudier pendant 6 ans environ.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2698) : ensuite, l’urbanisme 
+a repris et réétudié les plans, alors que nous avions le plein soutien du gouvernement vaudois 
+qui avait délégué à prangins trois de ses membres, dont sa présidente, pour nous encourager 
+énergiquement  à  avancer  le  projet. mais,  nous  avons  réétudié  et  amélioré,  ensuite 
+l’environnement politique a changé et désormais on ne parle plus de rdu.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2757) :  nous  avons  tous  nos  responsabilités  dans  cette  recrudescence  d’études. parfois,  lorsque  le 
+conseil  renvoie,  par  couardise,  à  la  municipalité  des  demandes  inutiles  et  hors  de  propos. récemment, la demande visait un perturbateur endocrinien qui concernait davantage l’office 
+fédéral de la santé que la municipalité. cette façon de se mettre en scène vis-à-vis des électeurs 
+en  demandant  tout  et  n’importe  quoi,  est  un  gaspillage  éhonté  du  temps  des  conseillers 
+communaux et de l’argent des contribuables qui pourrait être utilisé autrement. dans son esprit, 
+une étude devrait être précédée d’un besoin avéré pour une réalisation pérenne, décidée par 
+la municipalité. par exemple les écoles, salles de gym, piscine, etc., objets pour lesquels notre 
+conseil a accordé chf 180 millions ces dernières législatures.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2251) : quelques fois avec des doutes 
+et des craintes, mais enfin ce sont des constructions durables et nécessaires dont les autorités 
+n’ont pas à se décharger sur les nyonnais lambdas. ne va-t-on pas prochainement rénover une 
+école de 200 ans ?
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.1839) : en 2007, le rapport 38 de  la  municipalité proposait sobrement, sur 10  pages de textes noir-
+blanc, ses priorités pour 2006-2011, y figurait déjà toute la législature suivante.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2740) : en 2011, le programme de législature devenait un fascicule de 32 pages fortement illustrées et 
+en  couleurs,  reprenant  la  substance  de  2007  qui  prévoyait  déjà  l’amphithéâtre,  perdtemps-
+usteri, devenu perdtemps, un centre de congrès, la halle multisports de colovray, une police 
+de  proximité,  dont  la  proximité  a  disparu.  déjà  on  parlait  de  priorisation  et  de  manque  de 
+moyens.  les  écoles  sont  un  chapitre  où  nous  avons  dépassé  le  programme  2007  qui 
+mentionnait seulement la poursuite de la rénovation des bâtiments. nous avons construit un 
+complexe scolaire au cossy et refuser l’impôt affecté était une grave erreur pour les finances.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3247) : ensuite, le programme 2016-2021 se bornait à changer les images, brasser l’ordonnance des 
+projets et leur priorité, tour à tour : phares, emblématiques, prioritaires etc. de ce rapport, il livre 
+l’excellente conclusion de son collègue m. dominique karlen, avec la participation de toute la 
+commission, dont par ailleurs deux architectes : 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2094) : le programme de législature 2016-2021 est un beau catalogue des projets de la municipalité, 
+il ne devra pas rester qu’un catalogue, il faudra des actes forts et des réalisations concrètes 
+pour faire vivre ce programme, que ce soit perdtemps, colovray, la gare, les rives du lac ou le 
+musée du léman. comme dit dans le rapport, même s’il manque un peu d’audace ou de rêve, 
+il a le mérite d’exister et qui sait l’appétit vient en mangeant, c’est ça aussi rêver. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2492) : ensuite, l’indigence du programme de législature 2022, renforce encore cette constatation. la 
+municipalité dévoile sa vision à travers une volonté politique forte et pragmatique, phrase creuse 
+qui n’incite toujours pas au rêve. maintenant il n’y plus qu’à attendre l’échéance annoncée. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2710) : déjà  emblématique  dans  la  législature  précédente,  le  parc  perdtemps  est  devenu,  selon  la 
+municipalité,  le  projet  du  siècle  pour  nyon.  a  travers  le  préavis  2021/7  totalisant  
+chf  1,6  millions  et,  toujours  pour  perdtemps,  le  préavis  2022/51  pour  lequel  le  conseil  a 
+accordé, quatre ept totalisant chf 6,4 millions pendant 10 ans. le projet n’est toujours qu’au 
+stade des études, il serait bon que la coges se penche sur ce sujet entre autres.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3375) : toujours selon la municipalité : avec certains grands projets, il est évident que les ambitions 
+politiques exprimées demanderont de nouvelles ressources (augmentation de l’impôt ou impôt 
+affecté ?). comme en 2007, la municipalité espère sincèrement que le conseil communal lui 
+donnera  les  moyens  de  déployer  son  action,  tout  en  étant  parfaitement  consciente  que  les 
+ressources humaines et financières sont malheureusement limitées. elle a de son côté, à faire 
+un  grand  travail  de  priorisation  :  elle  devra  reporter  certains  projets,  en  revoir  d’autres  à  la 
+baisse, voire en abandonner quelques-uns et questionner aussi le niveau de certaines de ses 
+prestations. 
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.1825) : des priorisations ont déjà été effectuées en 2020, cela portait sur plus de chf 167 millions, 
+touchait une dizaine de services et concernait plus de 50 objets. en lisant entre les lignes, il y 
+a bien des choses qu’il risque de ne pas voir. pourtant, s’agissant de perdtemps, il en a déjà 
+entendu parler il y a 60 ans. 
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.2052) :  en 1985, la ville de nyon a acheté et démoli la fabrique d'allumettes sise au martinet. vingt ans 
+plus  tard,  après  moult  études  et  un  plan  de  quartier  plus  ou  moins  abouti,  son  collègue  
+m. patrick buchs comparait cette parcelle de plus de 10'000 m2 à un décor de film de sergio 
+leone. le refus de la petite ceinture par les nyonnais avait stoppé le projet du martinet qui avait 
+un  ppa  abouti,  un  plan  de  quartier  passé  en  force. près  de  40  ans  plus  tard,  l'urbanisme 
+travaille toujours en déplaçant des volumes, puis nouvelle mise à l’enquête à la recherche d'un 
+projet viable en dépensant des centaines de milliers de francs en études. toujours à martinet, 
+une ancienne municipale de l’urbanisme avait dit qu’il y avait un manque à gagner de chf 1,5 
+à 2 millions par an en l’absence d’un ppa. si une personne désire davantage de détails et de 
+chronologie, il propose de lire l’interpellation du 1er février 2021 de m. le conseiller communal 
+pierre  wahlen.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2265) : en  attendant,  nous  aurons  un  beau  parc  à  chiens  et  une  maison  de  paille. sommes-nous des spécialistes des constructions de pacotille ?
+----
+Gouvernance d'entreprise [Pillier de la gouvernance]
+tensor(0.2669) :  la coges, une fois déchargée du suivi  de la crise  de  l’exécutif et  de l’administration, aura 
+peut-être envie de se pencher sur la gouvernance de la ville. a ce moment, elle pourra peut-
+être prendre connaissance du résultat de l’enquête demandée à la cour des comptes du canton 
+de vaud  en  novembre 2022. dans sa  demande à  la  cour, l’association « nyon  autrement » 
+suggérait,  selon  un  adage  connu  en  gouvernance :  «  le  poisson  commence  à  pourrir  par  la  
+tête » celle de notre écusson naturellement. pour avoir siégé dix ans à la coges, il sait qu’elle 
+a une bonne capacité de s’occuper de la taille des corbeilles plutôt que de la gouvernance de 
+la ville. par exemple, il n’a jamais été traité de la valse des chefs de service, qui, depuis une 
+douzaine d’année se situe en moyenne à deux par an. quelquefois avec des départs négociés, 
+mais souvent avec de longs interrègnes pour équilibrer les finances.
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.1964) : ce qui constitue une perte 
+de mémoire et un défaut de continuité d’un montant incalculable.
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.2191) : il pourrait poursuivre en évoquant le ratage en règle de la rdu, les procrastinations de notre 
+municipalité  jusqu’à  ce  que  prangins  jette  l’éponge,  la  saga  de  clémenty  et  les  errances 
+administratives  et  juridiques  des  services,  les  indigences  de  l’informatique,  suite  à  la 
+rétrogradation du service en office à la solde du sag et amputé de ses compétences avérées. 
+il  remercie  ses  amis  et  mentors  du  parti  indépendant  nyonnais  et  souhaite  une  bonne 
+continuation  à  son  excellent  successeur  m.  josef  gulizia.  le  fait  particulier  qu’on  lui  laisse 
+toujours  la  totale  indépendance  dans  ses  propos  l’aura  infiniment  convenu.  il  a  décidément 
+choisi le bon parti. 
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2684) :  mme laure damtsas relève que « 24heures » titrait, il y a 10 jours, que la cogestion semait 
+la zizanie dans les communes. on peut dire qu’à nyon c’est l’inverse : il semble parfois difficile 
+de faire prévaloir la séparation des pouvoirs par l’exécutif. cela a été le cas en juin dernier et, 
+lors du dernier conseil pendant le débat sur le rapport concernant la cybersécurité et du préavis 
+2022/32, elle a de sérieux doutes. ainsi, elle n’est pas la seule à avoir été surprise dans la partie 
+droite de l’hémicycle, d’entendre un conseiller vert, non membre de la commission du préavis, 
+prendre  la  parole  pour  défendre  un  amendement  proposé  par  m.  le  syndic,  sans  que 
+l’amendement en question ne soit alors communiqué, distribué, projeté… ou même lu. selon 
+les  mots  de  m.  le  syndic,  il  a  envoyé  cet  amendement  de  manière  informelle  à  certains 
+conseillers en amont du conseil, mais pas à tous.
+----
+Responsabilité du produit [Pillier Sociale]
+tensor(0.2051) : l’ensemble des conseillers et des groupes 
+aurait dû prendre le temps de débattre pour décider de manière éclairée. cet amendement a 
+impacté  très  fortement  le  préavis  dont  les  dépenses  en  investissement  sont  soudainement 
+diminuées  de  près  de  la  moitié. dès  lors,  elle  se  permet  de  poser  quelques  questions  à  la 
+municipalité  parce  que  comme,  d’autres,  elle  est  restée  sur  sa  faim. m.  le  syndic  dit  avoir 
+engagé la commune contractuellement à hauteur de chf 150'000.- en dehors du préavis. il dit 
+avoir  avisé  la  cofin,  elle  aimerait  savoir  pendant  quelle  séance,  car,  comme  d’autres 
+commissaires, elle ne s’en souvient plus. aucune explication plausible n’a été donnée sur la 
+l’amendement,  soit  plus  de  
+baisse  de  dépenses  considérables  que  proposait 
+chf  900'000.-. elle  demande  des  détails  afin  de  savoir  comment  le  prix  des  switchs  est 
+descendu de chf 440'000.- à chf 150'000.-.
+----
+Responsabilité du produit [Pillier Sociale]
+tensor(0.2818) : certains ont compris que l’amendement était un 
+« discount »  sur  le  préavis  (faire  mieux  avec  moins),  mais  m.  le  syndic  a  annoncé  qu’il 
+reviendrait dans quelques mois avec un autre préavis qui sera l’occasion de tenter de vulgariser 
+le sujet et que finalement ce préavis est un acompte sur la suite. elle demande des clarifications, 
+savoir s’il s’agit d’un acompte ou une meilleure négociation. l’amendement a été voté à une 
+courte majorité en invoquant la « crise sécuritaire » de la ville. des montants demandés sous 
+couvert du titre accrocheur du préavis « cybersécurité » ne concernent pas la cybersécurité. elle  demande  quel  est  le  montant  qui  concerne  exclusivement  la  cybersécurité. enfin,  la 
+personne  responsable  de  la  sécurité  est  un  conseiller  qui  s’est  récusé  lors  du  vote  et  des 
+discussions.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2985) : or, son nom n’apparaît pas dans le rapport, elle demande pourquoi, et pense qu’il 
+aurait  été  le  mieux  placé  pour  expliquer  à  ses  collègues  les  détails  du  préavis  pendant  les 
+réunions de commission. les dix conseillers qui ont siégé en commission, à quatre reprises 
+durant  les  neufs  derniers  mois,  ont,  à  l’unanimité  renvoyé  le  préavis  à  la  municipalité. une 
+communication en bonne et due forme était indispensable pour un sujet aussi brûlant. à la place 
+d’un débat constructif, nous avons assisté à ce qui ressemble à une manœuvre politique avec 
+beaucoup d’incertitudes, ce qu’elle trouve tout à fait regrettable.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2595) : m. claude farine souhaite savoir où en est le concept de mobilité urbaine. il y a quelques 
+mois, les associations de cyclistes ont été convoquées pour une première séance pour faire le 
+point. il souhaite savoir si cette démarche sera quand même faite. d’autre part, il fait remarquer 
+qu’il y a longtemps que mme la municipale n’a pas fait le point sur la manière dont les nyonnais 
+s’appliquent à faire le tri des déchets. il aimerait avoir une information à ce sujet.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3992) : mme la municipale roxane faraut lui répond qu’il y aura un point déchets, comme chaque 
+année, dans le rapport de gestion. il y aura l’ensemble des statistiques concernant les tonnages. 
+une  ressource  qu’ils  souhaitent  récolter  avec  un  plus  fort  tonnage  sont  les  organiques, 
+d’énormes progrès peuvent encore être faits. certaines choses changeront peut-être fin 2023, 
+début 2024.  
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2194) : mme  valérie  mausner  leger  constate  que  la  menace  d’un  délestage  s’éloigne,  mais  la 
+facture  énergétique  va  bel  et  bien  augmenter.  si  les  grandes  sociétés  ont  les  moyens  de 
+demander à des techniciens de les aider à réduire leur consommation, il n’en va pas de même 
+pour les pme. il est vrai qu’il y a des mesures générales avec le programme eee qui permet 
+de manière générale de réduire sa consommation. mais, si on est un boulanger, par exemple, 
+avec ses fours et réfrigérateurs, on ne sait pas forcément comment faire. elle demande si la 
+municipalité  a  envisagé  de  prendre  l’occasion  de  cette  prise  de  conscience  sur  le  coût  de 
+l’énergie,  pour  permettre  à  des  pme  nyonnaises  d’avoir  une  aide  technique  ciblée  sur  leur 
+propre consommation. 
+----
+Responsabilité du produit [Pillier Sociale]
+tensor(0.1873) : mme arianne schwab hug fait part du regret de plusieurs concitoyens de ne plus recevoir le 
+tous-ménages qui était envoyé quelques fois par année sur format papier, particulièrement les 
+personnes âgées qui ne vont pas facilement aller sur internet.  elle-même aimait bien lire ce 
+document lorsqu’elle n’était pas encore élue.  
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.1457) : m. le syndic daniel rossellat lui répond qu’effectivement le journal vivre à nyon qui était 
+diffusé quatre fois par année a été mis en veilleuse. ils ont lancé une newsletter une fois par 
+mois, mais ils désirent reprendre cette diffusion. le rythme doit encore être défini, mais ils sont 
+bien conscients que la newsletter ne touche pas tous les nyonnais.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2053) :  m. michael sauerlaender rappelle qu’il fut un certain temps où l’on célébrait noël à nyon. force  est  de  constater  qu’après  avoir  subi  des  décorations  de  noël  avec  des  triangles  à 
+câblages  qui  pullulaient  aux  quatre  coins  de  la  ville,  nous  sommes  passés  à  un  nouveau 
+concept. si les manifestations ponctuelles avec bougies dans différents quartiers ont rencontré 
+un franc succès auprès de ceux qui ont eu du plaisir d’y assister, l’ambiance de notre ville la 
+majorité  du  temps  est,  comme  le  disait  un  responsable  de  la  sic  à  nrtv,  tristounette. en 
+discutant avec de nombreux nyonnais croisés lors de fêtes au marché de noël ou marché de 
+rive, il en ressort que cet avis est partagé par de nombreux habitants. tous comprennent la 
+problématique d’économiser de l’énergie, mais aller d’un extrême où la ville était festive pendant 
+tout le mois de décembre à rien, sauf de ponctuelles manifestations, il y aurait certainement un 
+juste milieu à trouver.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3420) : dans ce sens, et de manière durable, il se demande pourquoi ne pas 
+commencer à mettre en place des actions telles que planter un sapin à côté de la gare, cette 
+verdure  où  l’on  mettait  un  triangle  vert  avant,  on  pourrait  le  planter,  le  garder  et  le  décorer 
+pendant le mois de noël. ce serait une idée, qui certes vient de la droite, mais qui est durable. développer  un  concept  de  décorations  qui  égayeraient  notre  ville  le  long  des  fêtes  avec 
+quelques lumières led, mais aussi avec des pièces qui jouent avec la lumière de l’éclairage 
+public. un projet avec une école de design, avec des ferblantiers qui peuvent travailler le métal, 
+il y a plein d’idées créatives pour faire du participatif, cher à la ville, que l’on pourrait explorer 
+avec des jeunes, avec des contributions à moindre frais et surtout en économisant de l’énergie.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2012) : réfléchir à l’installation d’un sapin en bois durable qui pourrait trôner sur notre magnifique place 
+du château, être intégré à des manifestations telle que celle des bougies mise en place par 
+l’association ecum, qui était magnifique, tout en égayant la place, nuit et jour, en dehors de 
+ces manifestations. il ne cherche pas à réinventer la roue et dépenser des sommes folles par 
+rapport aux triangles qui ont coûté chf 75'000.-, il  y a certainement quelque chose que l’on 
+peut  faire  pour  éviter  de  devenir  la  capitale  du  noël  tristounet. enfin,  il  trouve  quand  même 
+dommage de devoir aller dans des centres commerciaux pour se rendre compte que c’est noël.
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.1937) : m. le municipal pierre wahlen précise que la municipalité fait, en ce moment même, un bilan 
+de l’édition 2022 des fêtes de noël avec l’ensemble des acteurs concernés, y compris la sic. il 
+regrette  que  son  appréciation  soit  si  négative,  pour  sa  part,  il  n’a  eu  que  des  retours 
+extrêmement positifs sur cette première édition. ils vont faire un bilan et réfléchir à ce qu’ils vont 
+mettre en place pour noël 2023, en accord avec les commerçants et pour que cette période 
+reste  comme  elle  a  été  cette  année.  il  lui  semble  qu’une  majorité  des  nyonnais  l’ont  trouvé 
+festive et ils vont travailler pour que 2023 soit encore mieux.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.1902) : m. alexander federau intervient au sujet de la nouvelle borne installée à la place saint-martin 
+et  sa  localisation.  il  constate  que  l’on  peut  passer  à  côté  en  véhicule  et  il  souhaite  des 
+explications.  
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.3699) : m.  yves  gauthier-jaques  intervient  au  sujet  de  la  déchèterie,  plus  particulièrement  la 
+ressourcerie. il a constaté une très forte baisse du dépôt des objets. elle a été inaugurée d’une 
+manière géniale et il est assez sensible à ceci étant donné qu’il faisait partie de ceux qui étaient 
+très favorables à la réaliser. il a également remarqué un manque de sensibilisation de la part 
+des employés de la voirie, qui font un excellent travail, mais qui sont plus enclins à expliquer 
+dans quelle benne jeter les objets que de proposer d’aller les déposer à la ressourcerie. il l’a 
+vécu à trois reprises. il a même échangé avec un employé qui a expliqué que les gens voulaient 
+jeter. il lui semble intéressant de faire un rappel aux employés.  
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.3351) : mme la municipale roxane faraut lui signale qu’elle viendra avec une réponse très complète 
+le mois prochain. ils s’étaient engagés à faire un bilan après six mois, ils le feront après huit. il 
+y  a  toujours  autant  de  dépôt  d’objets,  beaucoup  de  gens  viennent  en  chercher,  ce  qui  créé 
+passablement de problèmes en termes de circulation dans la déchèterie de manière générale, 
+avec des temps d’attente.  
+----
+Capital Naturel [Pillier Environnemental]
+tensor(0.1267) : mme caroline bordier se rappelle, au début de la guerre en ukraine, des questions sur les 
+abris antiatomiques. elle n’a pas souvenir d’avoir entendu une réponse.  
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.2016) : m. le municipal pierre wahlen se souvient avoir répondu à une question sur les abris suite à 
+une  interpellation  de  mme  alexia  seguy  qui  s’inquiétait  de  savoir  s’ils  étaient  en  nombre 
+suffisants, c’était le 2 mai 2022.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2834) :  m. pierre patelli avoue être très déçu de ce rapport-préavis, non pas que ce soit important 
+d’avoir  des  indicateurs,  mais  nous  avons  quand  même  une  histoire  dans  la  ville. si  on  peut 
+revenir à nyon énergie 2009-2013, nyon énergie 2013- 2017, on constate qu’en 2013, on avait 
+un plan 2050, une société 2000 watts, avec des mesures qui étaient déjà imposées et une réelle 
+stratégie. on parlait de réductions en 2020, pour, en 2050, arriver à cette société 2000 watts. puis il y a eu un plan nyon énergie 2013- 2017, puis 2018-2021. en commission de gestion, 
+une  évaluation  chiffrée  a  été  demandée  du  plan  en  2022. malheureusement,  les  indicateurs 
+n’étaient pas là. maintenant, on revient en disant qu’on va faire des indicateurs, des études. nous  sommes  devant  l’ancien  challenge  du  siècle  qui  pourrait  devenir  le  challenge  d’une 
+génération,  car  cela  fait  25  ans  que  l’on  tente  de  réaliser  cet  objectif.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3396) : il  estime  que  c’est  un 
+échec de la politique communale de nyon sur cette question énergétique. on peut l’inculquer à 
+différents  facteurs,  si  c’est  la  municipalité  d’avant,  celle  de  maintenant,  mais  on  voit  que  la 
+municipalité n’atteint pas son objectif, nous n’arrivons pas à avoir actuellement une stratégie 
+2050, nous sommes encore à l’étape d’indicateurs, de plans de changement de règlements. face à cette problématique, il énonce une citation « les hommes politiques se préoccupent de 
+leur prochaine élection, les hommes d'état se préoccupent des générations futures ». ici, les 
+membres  de  cette  future  commission  doivent  être  face  à  cet  objectif. nous  vivons  dans  un 
+monde  dont  on  n’arrive  pas  à  imaginer  un  plus  gracieux,  mais  la  fin  du  monde  est  très 
+imaginable. il demande aux commissaires de prendre les choses à bras le corps et offrent peut-
+être enfin une  perspective  à donner  à  la  population  pour les années  2050.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3095) : cela ne  doit pas 
+seulement  venir  des  verts,  les  autres  partis  ont  également  quelque  chose  à  amener. malheureusement  la  municipalité  ne  l’a  pas  fait. il  demande  à  la  commission  d’amener  des 
+réponses, car nous devons avoir un plan pour les années à venir car si nous continuons ainsi, 
+nous aurons toujours des indicateurs et pas de projets réalisés.
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2422) : rapport-préavis n° 2023/89 
+réponse  au  postulat  de  mme  ariane  schwab  hug  et  consorts  intitulé  « favorisons  la 
+transition vers une alimentation plus durable dans la restauration collective des crèches 
+et cantines scolaires à nyon ». 
+----
+Gouvernance d'entreprise [Pillier de la gouvernance]
+tensor(0.2318) : préavis n° 2023/90 
+modification du droit de superficie distinct et permanent (ddp) à titre onéreux octroyé à 
+la coopérative de l’habitat associatif sur la parcelle n° 1071. 
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.2589) : préavis n° 2023/91 
+campagne de comptages 2023 - demande de crédit de chf 166'000.— ttc nécessaire à 
+l’actualisation des données de la campagne quinquennale de comptages de 2017 portant 
+sur  les  transports  individuels  motorisés,  les  transports  publics  et  la  mobilité  active 
+(piéton-ne-s – vélos) ; l’évaluation de l’impact de projets de requalification ; l’évaluation 
+du potentiel des données issues de la téléphonie mobile sur un secteur test. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.2404) : préavis n° 2023/92 
+parc de véhicules communaux : stratégie de renouvellement et d’acquisition - demande 
+de  crédit  de  chf  7'195'467.—  ttc  pour  le  remplacement  et  l’acquisition  de  véhicules 
+pour les différents services de la ville. 
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.2117) : communication n° 2023/93 
+recensement  2022  des  corbeautières  en  ville  de  nyon  -  evolution,  situation 
+géographique et effectif de la population de corbeaux freux. 
+----
+pollution et déchets [Pillier Environnemental]
+tensor(0.1685) : m. jacky colomb a l’impression que ce que l’on voit surtout en ville, et qui semblent déranger 
+les gens, sont plutôt des corneilles que des corbeaux freux.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.1887) : m. le municipal pierre wahlen confirme que les volatiles qui dérangent sont bien des corbeaux 
+freux et non des corneilles. il ne peut expliquer la différence entre les uns et les autres, mais en 
+l’occurrence, les recensements qui ont été faits concernaient les corbeaux freux. 
+----
+Opportunités Environnementals [Pillier Environnemental]
+tensor(0.3849) : préavis n° 2023/94 
+projet d’aménagements en faveur de la biodiversité sur l’ensemble de la ville grâce au 
+- demande  d’un  crédit 
+laurelles  et 
+remplacement  d’un  hectare  de 
+d’investissement  de  chf  750’000.—  ttc  -  demande  d’un  crédit  de  fonctionnement 
+annuel  de  chf  75’000.—  ttc  pour  la  mise  en  place  d’une  subvention  adressée  aux 
+propriétaires privé-e-s. 
+----
+capital humain [Pillier Sociale]
+tensor(0.2058) :  mme la municipale stéphanie schmutz, en introduction, lui signale que la municipalité a été 
+surprise de sa question directement à la dgmr. elle l’informe que le mieux est de s’adresser 
+en premier lieu à la municipalité, d’où la réponse de la dgmr qui le renvoie à eux. ensuite, elle 
+lui rappelle que la ligne nyon-eysins, longue de 2.4 km est propriété pour sa plus grande partie 
+des  cff. le  canton  de  vaud  n’a  qu’une  toute  petite  partie. elle  comporte  plusieurs 
+embranchements qui desservent les silos de fenaco, landi et la zone d’activités de champ-
+colin. pour  répondre  aux  questions  posées,  elle  l’informe  que  la  ligne  nyon-eysins  est  peu 
+utilisée. elle est uniquement utilisée pour le trafic de marchandises avec un aller-retour par jour, 
+excepté lors de la saison de récolte de betteraves, en automne, où le trafic est plus dense. pour 
+des questions de sécurité, cette ligne ne peut pas être utilisée à d’autres fins.
+----
+Changement climatique [Pillier Environnemental]
+tensor(0.2077) : entre autres, la 
+ligne nyon-eysins comporte 10 passages à niveaux qui doivent faire l’objet d’une remise aux 
+normes, ainsi que d’autres mises aux normes. de plus, cette ligne n’est pas électrifiée et ne 
+peut, en l’état, accueillir du trafic voyageurs. la ville de nyon mène des discussions étroites 
+avec les cff afin de maintenir, voire renforcer la desserte de champ-colin, pour valoriser le 
+transport des marchandises par rail, en transport efficace et respectueux du climat. ainsi, en 
+juin  2021,  la  ville  de  nyon  s’est  positionnée  par  courrier  auprès  des  cff  de  la  manière 
+suivante : « à  ce  stade,  il  serait  prématuré  d’entériner  la  suppression  de  la  ligne  fret  nyon-
+eysins dans le but de faire des économies à court terme. la ville de nyon veut avoir une vision 
+prospective. pour l’heure, la ville de nyon ne souhaite pas supprimer les installations techniques 
+sans engager une étude à ce sujet ».
+----
+capital humain [Pillier Sociale]
+tensor(0.2162) : la ville de nyon est en contact étroit avec la région, les 
+cff et le canton au sujet de la valorisation de cette ligne.
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.2650) : m.  yves  gauthier-jaques,  à  la  suite  de  la  décision  du  conseil  de  refuser  le  préavis 
+2022/42, invite la municipalité à prendre en considération au moins les vœux suivants : qu’un 
+appel d’offres public soit fait, et si, effectivement, le montant était inférieur à celui d’appel d’offres 
+public qu’il y ait au moins suffisamment d’entités qui soient sollicitées et pas seulement une ou 
+trois. d’autre part, il invite la municipalité à réfléchir sérieusement à ce que ce soit un ddp qui 
+soit fixé sur une durée de 15 ans pour éviter de péjorer le futur projet qui pourrait émerger dans 
+cet espace. un ddp sur 50 ans lui paraît excessif.  
+----
+Opposition des parties prenantes [Pillier Sociale]
+tensor(0.1790) : m. victor allamand vient de se déplacer dans la salle. il savait qu’au centre de la salle, en 
+bougeant la tête de 20 cm à gauche, il avait un son deux fois plus fort, mais il y a des inégalités 
+criantes. dans l’espace réservé aux spectateurs, on n’entend rien. il suggère à la municipalité 
+d’étudier la pose d’un haut-parleur supplémentaire.  
+----

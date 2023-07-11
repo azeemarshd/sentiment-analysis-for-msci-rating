@@ -4,6 +4,7 @@ import re
 import nltk
 import pandas as pd
 import tqdm
+from gensim import corpora, models, similarities
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import sent_tokenize, word_tokenize
@@ -108,6 +109,8 @@ def clean_text(text,remove_stopwords = False):
     Applies some pre-processing on the given text.
     """
     
+    # TODO: ADD LEMMATIZATION
+    
     text = text.lower()
 
     # Remove URLs
@@ -117,7 +120,7 @@ def clean_text(text,remove_stopwords = False):
     text = re.sub(r'<.*?>', '', text)
 
     # Remove punctuation
-    text = re.sub(r'[^\w\s]', '', text)
+    # text = re.sub(r'[^\w\s]', '', text)
     
     if remove_stopwords:
         text = ' '.join([word for word in text.split() if word not in stop_words])
@@ -133,6 +136,43 @@ def sentence_tokenizer(text):
     sentences = sent_tokenize(text, language='french')
     return sentences
 
+def paragraph_tokenizer(text, min_length=50, threshold=1000):
+    """
+    This function should tokenize paragraphs, which are separated by newlines (\n or \n\n).
+
+    Args:
+        text (str): text to tokenize
+        min_length (int): minimum length of a paragraph to include
+        threshold (int): maximum number of characters in a paragraph
+    """
+    
+    raw_paragraphs = re.split('\n{2,}', text)
+    paragraphs = []
+    
+    for raw_paragraph in raw_paragraphs:
+        if len(raw_paragraph) <= threshold and len(raw_paragraph) >= min_length:
+            paragraphs.append(raw_paragraph)
+        elif len(raw_paragraph) > threshold:
+            sentences = sentence_tokenizer(raw_paragraph)
+            temp_paragraph = ''
+
+            for sentence in sentences:
+                if len(temp_paragraph) + len(sentence) > threshold:
+                    paragraphs.append(temp_paragraph)
+                    temp_paragraph = sentence
+                else:
+                    temp_paragraph += ' ' + sentence
+            
+            # If there's any remaining content in temp_paragraph after the loop ends, add it as a paragraph
+            if temp_paragraph:
+                paragraphs.append(temp_paragraph)
+    
+    # Remove any empty paragraphs that may have been created
+    paragraphs = [paragraph for paragraph in paragraphs if paragraph.strip()]
+    
+    return paragraphs
+
+
 
 def extract_text_from_pdf(pdf_file_path):
     return extract_text(pdf_file_path)
@@ -146,6 +186,11 @@ def extract_section(text, start_phrase, end_phrase):
         return res_text
     return "Section not found"
 
+def find_top_level_key(key_terms, subkey_to_find):
+    for key, subdict in key_terms.items():
+        if subkey_to_find in subdict:
+            return key
+    return None
 
 def get_results_dataframe(results_dict, sort='avg_score'):
     """
@@ -165,12 +210,89 @@ def get_results_dataframe(results_dict, sort='avg_score'):
     df = df.reset_index()
     df = df.rename(columns={'index': 'key_term'})
     
+    for kt in df['key_term'].unique():
+        top_level_key = find_top_level_key(key_terms, kt)
+        if top_level_key is not None:
+            new_kt = kt + " [" + top_level_key + "]"
+            df.loc[df['key_term'] == kt, 'key_term'] = new_kt
+    
     return df
+
+
+def get_results_dataframe_lsi(results_dict):
+    """
+    Returns a dataframe of the results dictionary.
+    """
+    flattened_data = []
+    for sentence, subdict in results_dict.items():
+        flattened_data.append({
+            'index': subdict['index'],
+            'text': sentence,
+            'key_term': subdict['key_term'],
+            'score': subdict['score']
+        })
+
+    df = pd.DataFrame(flattened_data)
+    df = df.sort_values(by='index')
+    df = df.reset_index(drop=True)
+    
+    for kt in df['key_term'].unique():
+        top_level_key = find_top_level_key(key_terms, kt)
+        if top_level_key is not None:
+            new_kt = kt + " [" + top_level_key + "]"
+            df.loc[df['key_term'] == kt, 'key_term'] = new_kt
+
+    return df
+
+def compute_baseline(pdf_file_path):
+    """Compute baseline with LSI
+
+    Args:
+        pdf_file_path (str): PV file path
+
+    Returns:
+        dict: results dictionary
+    """
+    new_key_terms = combine_subkey_values(key_terms)
+
+    # pdf_file_path = "./ccpv230130.pdf"
+    pv_full = extract_text_from_pdf(pdf_file_path)
+    pv_clean = clean_text(pv_full)
+
+    paragraphs = paragraph_tokenizer(pv_clean,min_length=150, threshold=10000)
+    
+    key_terms_list = [value for key, subdict in new_key_terms.items() for subkey, value in subdict.items()]
+
+    dictionary = corpora.Dictionary([word_tokenize(p) for p in paragraphs + key_terms_list])
+
+    paragraph_bow = [dictionary.doc2bow(word_tokenize(p)) for p in paragraphs]
+    key_term_bow = [dictionary.doc2bow(word_tokenize(kt)) for kt in key_terms_list]
+
+    model = models.LsiModel(paragraph_bow + key_term_bow, id2word=dictionary, num_topics=100)
+    index = similarities.MatrixSimilarity(model[paragraph_bow + key_term_bow])
+
+    results = {}
+    for i, kt_bow in enumerate(key_term_bow):
+        sims = index[model[kt_bow]]
+        sorted_sims = sorted(enumerate(sims), key=lambda item: -item[1])
+        key_term = get_subkey(new_key_terms, key_terms_list[i])
+
+        for doc_position, doc_score in sorted_sims:
+            if doc_position < len(paragraphs):
+                paragraph = paragraphs[doc_position]
+                if paragraph not in results or doc_score > results[paragraph]['score']:
+                    results[paragraph] = {'key_term': key_term, 'score': doc_score,'index': doc_position}
+
+    return results
+
 
 
 
 def main():
     print("Preprocessing...")
+    
+    MIN_LENGTH = 150
+    MAX_LENGTH = 1024
 
     pdf_file_path = "./ccpv230130.pdf"
     pv_full = extract_text_from_pdf(pdf_file_path)
@@ -179,58 +301,38 @@ def main():
     pv_rapport_de_commissions = extract_section(pv_full, start_phrase="RAPPORTS DE COMMISSIONS", end_phrase="DEPÔT DE PREAVIS")
     pv_depot_de_preavis = extract_section(pv_full, start_phrase="DEPÔT DE PREAVIS", end_phrase="CONSEIL COMMUNAL DE NYON")
     
-    with open('./pv/pv_full.txt', 'w', encoding='utf-8') as f:
-        f.write(pv_full)
+    pv_clean = [clean_text(paragraph) for paragraph in paragraph_tokenizer(pv_full, min_length=MIN_LENGTH, threshold=MAX_LENGTH)]
+    pv_intro_clean = [clean_text(paragraph) for paragraph in paragraph_tokenizer(pv_intro, min_length=MIN_LENGTH, threshold=MAX_LENGTH)]
+    pv_rdc_clean = [clean_text(paragraph) for paragraph in paragraph_tokenizer(pv_rapport_de_commissions, min_length=MIN_LENGTH, threshold=MAX_LENGTH)]
+    pv_ddp_clean = [clean_text(paragraph) for paragraph in paragraph_tokenizer(pv_depot_de_preavis, min_length=MIN_LENGTH, threshold=MAX_LENGTH)]
+    
+    # print(f"length of pv_clean with minimum {MIN_LENGTH} and maximum {MAX_LENGTH} chars: {len(pv_clean)}")
 
-    with open('./pv/pv_intro.txt', 'w', encoding='utf-8') as f:
-        f.write(pv_intro)
-        
-    with open('./pv/pv_rapport_de_commissions.txt', 'w', encoding='utf-8') as f:
-        f.write(pv_rapport_de_commissions)
-
-    
-    pv_rapport_de_commissions
-    pv_clean = [clean_text(sentence) for sentence in sent_tokenize(pv_full, language='french')]
-    pv_intro_clean = [clean_text(sentence) for sentence in sent_tokenize(pv_intro, language='french')]
-    pv_rdc_clean = [clean_text(sentence) for sentence in sent_tokenize(pv_rapport_de_commissions, language='french')]
-    pv_ddp_clean = [clean_text(sentence) for sentence in sent_tokenize(pv_depot_de_preavis, language='french')]
-    
-    pv_intro_paragraphs = pv_intro.split('\n')
-    pv_intro_paragraphs_clean = [clean_text(paragraph) for paragraph in pv_intro_paragraphs]
-    pv_rdc_paragraphs = pv_rapport_de_commissions.split('\n')
-    pv_rdc_paragraphs_clean = [clean_text(paragraph) for paragraph in pv_rdc_paragraphs]
-    pv_ddp_paragraphs = pv_depot_de_preavis.split('\n')
-    pv_ddp_paragraphs_clean = [clean_text(paragraph) for paragraph in pv_ddp_paragraphs]
-    
     
     new_key_terms = combine_subkey_values(key_terms)
-    
-    
-    
+        
     print("Loading model...")
     model = SentenceTransformer("Sahajtomar/french_semantic")
 
     key_terms_sample = [value for key, subdict in new_key_terms.items() for subkey, value in subdict.items()]
 
-    pv_sentences = pv_intro_clean + pv_rdc_clean + pv_ddp_clean
+    pv_paragraphs = pv_intro_clean + pv_rdc_clean + pv_ddp_clean
     
     print("Embedding...")
     embeddings1 = model.encode(key_terms_sample, convert_to_tensor=True)
-    embeddings2 = model.encode(pv_sentences, convert_to_tensor=True)
+    embeddings2 = model.encode(pv_paragraphs, convert_to_tensor=True)
     
     print("Calculating similarity...")
     cosine_scores = util.pytorch_cos_sim(embeddings1, embeddings2)
-    
-    
     
     res_avg = []
     for i in range(len(key_terms_sample)):
         tmp_res = 0
         
-        for j in range(len(pv_sentences)):
+        for j in range(len(pv_paragraphs)):
             tmp_res += cosine_scores[i][j]
             
-        avg_score = tmp_res / len(pv_sentences)
+        avg_score = tmp_res / len(pv_paragraphs)
         res_avg.append({'key_term': key_terms_sample[i], 'avg_score': avg_score.item()})
 
     res_max = []
@@ -238,26 +340,42 @@ def main():
         max_score = max(cosine_scores[i])
         res_max.append({'key_term': key_terms_sample[i], 'max_score': max_score.item()})
         
-        
     results_dict = {get_subkey(new_key_terms, key_term): {'avg_score': res_avg[i]['avg_score'],
                                                           'max_score': res_max[i]['max_score'],
-                                                          'sentences': []} for i, key_term in enumerate(key_terms_sample)}
+                                                          'paragraphs': []} for i, key_term in enumerate(key_terms_sample)}
     
-    print("Classifying sentences...")
-    for j in range(len(pv_sentences)):
+    
+    individual_para_scores = []
+    
+    
+    print("Classifying paragraphs...")
+    for j in range(len(pv_paragraphs)):
         max_index = cosine_scores[:, j].argmax()
         max_score = cosine_scores[max_index][j]
         key_term = key_terms_sample[max_index]
-        sentence = pv_sentences[j]
+        paragraph = pv_paragraphs[j]
         short_key_term = get_subkey(new_key_terms, key_term)
 
-        # Add the sentence to the list of sentences for the key term
-        results_dict[short_key_term]['sentences'].append(sentence)
-    
-    return results_dict
+        # Add the paragraph to the list of paragraphs for the key term
+        results_dict[short_key_term]['paragraphs'].append(paragraph)
+        
+        individual_para_scores.append({'paragraph': paragraph,
+                                       'score': max_score,
+                                       'key_term': short_key_term})
+        
+        df = pd.DataFrame(individual_para_scores)
+        
+        for kt in df['key_term'].unique():
+            top_level_key = find_top_level_key(key_terms, kt)
+            if top_level_key is not None:
+                new_kt = kt + " [" + top_level_key + "]"
+                df.loc[df['key_term'] == kt, 'key_term'] = new_kt
+        
+ 
+    # return results_dict,pd.DataFrame(individual_para_scores).sort_values(by="score", ascending=False)
+    return results_dict,df
 
 
-# if __name__ == "__main__":
-#     main()
-  
+
+
 
