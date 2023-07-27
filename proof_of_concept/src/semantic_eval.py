@@ -346,12 +346,10 @@ def main():
     
     
     individual_para_scores = []
-    
-    
     print("Classifying paragraphs...")
     for j in range(len(pv_paragraphs)):
         max_index = cosine_scores[:, j].argmax()
-        max_score = cosine_scores[max_index][j]
+        max_score = cosine_scores[max_index][j].item()
         key_term = key_terms_sample[max_index]
         paragraph = pv_paragraphs[j]
         short_key_term = get_subkey(new_key_terms, key_term)
