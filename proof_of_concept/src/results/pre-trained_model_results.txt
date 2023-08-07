@@ -18,14 +18,14 @@ bouteilles d’eau sont en stock dans le frigo. a partir de la prochaine séance
 devront se munir de leur thermos. 
 ----
 pollution et déchets [Pillier Environnemental]
-0.17604927718639374 :   m. le président donne lecture de la lettre de démission de mme joëlle gerber, verts.  
+0.17604929208755493 :   m. le président donne lecture de la lettre de démission de mme joëlle gerber, verts.  
   le dernier viennent-ensuite de la liste, m. raul suarez, ayant renoncé à siéger, le bureau 
 a élu m. joël vetter comme membre du conseil pour le groupe des verts. son élection, 
 affichée au pilier public, n’ayant fait l’objet d’aucun recours, il pourra être assermenté au 
 point 7 de l’ordre du jour.  
 ----
 pollution et déchets [Pillier Environnemental]
-0.2295372486114502 :  mme  la  municipale  roxane  faraut signale  qu’elle  tient  à  disposition  des  personnes  qui 
+0.2295372188091278 :  mme  la  municipale  roxane  faraut signale  qu’elle  tient  à  disposition  des  personnes  qui 
 reçoivent les documents par voie électronique, des copies papier des annexes du préavis sur 
 les véhicules en format a3, la version électronique étant difficile à lire. elle répond ensuite à  
 m. jean-pierre vuille au sujet du déneigement des trottoirs. ne pouvant agir partout en même 
@@ -38,12 +38,12 @@ l’intervention. dans ces conditions difficiles, ils peuvent imaginer qu’un a
 oublié.
 ----
 capital humain [Pillier Sociale]
-0.23907479643821716 : dans tous les cas, ils assurent que les collaborateurs mettent tout en œuvre pour assurer 
+0.23907476663589478 : dans tous les cas, ils assurent que les collaborateurs mettent tout en œuvre pour assurer 
 un  service  hivernal  efficace  et  elle  en  profite  pour  les  remercier  pour  leur  travail  et  donne 
 quelques chiffres. lors de cet entretien hivernal, les collaborateurs déneigent 42km de routes,
 ----
 capital humain [Pillier Sociale]
-0.19741976261138916 : 36  km  de  trottoirs.  pour  un  cycle  de  déneigement  complet  de  la  ville,  il  faut  compter  un 
+0.19741979241371155 : 36  km  de  trottoirs.  pour  un  cycle  de  déneigement  complet  de  la  ville,  il  faut  compter  un 
 contingent  de  20  collaborateurs,  7  dans  les  véhicules  et  13  pour  le  déneigement  manuel. 
 l’engagement  est  d’environ  4  à  5  heures  pour  le  déneigement  mécanique  et  une  journée 
 complète pour le déneigement manuel. mme la municipale  lui répond également suite à ses 
@@ -54,7 +54,7 @@ du quai du côté de la rue de la morâche. ce dispositif a été complété par
 les piétons du risque de glissade. 
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.20871201157569885 :  mme la municipale répond ensuite à m. yves gauthier-jaques au sujet des rodéos urbains 
+0.2087121158838272 :  mme la municipale répond ensuite à m. yves gauthier-jaques au sujet des rodéos urbains 
 au chemin d’eysins. elle l’informe que les contrôles radar effectués de  2018 à  2021 avaient 
 révélé que l’axe du chemin d’eysins ne le catégorisait pas comme prioritaire d’apaisement au 
 vu du constat d’infractions quasiment inexistant. de fait, en 2022, cet axe n’avait pas fait l’objet 
@@ -67,7 +67,7 @@ d’installation de la remorque, sur cette portion bordée de parcelles privées
 accueillera le radar ces prochaines semaines.
 ----
 Responsabilité du produit [Pillier Sociale]
-0.25407177209854126 :  mme  la  municipale  stéphanie  schmutz  répond  à  m. pierre  patelli  au  sujet  de  la  santé 
+0.2540716528892517 :  mme  la  municipale  stéphanie  schmutz  répond  à  m. pierre  patelli  au  sujet  de  la  santé 
 mentale. en  premier  lieu,  elle  précise  que  les  sujets  liés  à  la  santé  publique,  psychique  ou 
 physique, sont de la responsabilité du canton. cependant, le bien-être de la population est un 
 sujet  qui  tient  à  cœur  à  la  municipalité  et  la  ville  de  nyon  peut  intervenir  indirectement,  en 
@@ -89,7 +89,7 @@ movis qui a le rôle de personne de confiance que tout le monde peut joindre ave
 sur la confidentialité des échanges, sur des questions d’ordre professionnel ou privé.
 ----
 capital humain [Pillier Sociale]
-0.1635022759437561 : mme  la  municipale répond  également  à  m.  victor  allamand  au  sujet  du  phare,  géré  par 
+0.1635022908449173 : mme  la  municipale répond  également  à  m.  victor  allamand  au  sujet  du  phare,  géré  par 
 caritas vaud et subventionné par le canton. elle l’informe, qu’à ce jour, la municipalité n’a pas 
 été  interpellée  pour  des  situations  critiques  ou  de  manque  de  places  au  phare.  ouverte  en 
 février 2022, cette structure a accueilli 214 usagers différents, 33 femmes et 181 hommes. suite 
@@ -102,7 +102,7 @@ les conditions météo. c’est pourquoi le canton n’a pas prévu d’augmente
 à nyon.  
 ----
 Changement climatique [Pillier Environnemental]
-0.19311438500881195 : enfin, mme la municipale répond à m. vadim rochat concernant la distribution alimentaire 
+0.19311439990997314 : enfin, mme la municipale répond à m. vadim rochat concernant la distribution alimentaire 
 d’urgence. elle signale que la soliderie est en train de monter sa structure qui devrait ouvrir 
 début  septembre  2023.  une  convention  lie  cette  association  à  la  ville  pour  un  montant  de  
 chf 22'000.-. il n’est pas impossible que la ville, ou une association régionale dont nyon fait 
@@ -112,14 +112,14 @@ cœur, l’association suspend-us apportent une aide humanitaire aux nyonnais qu
 au  niveau  communication,  la  ville  de  nyon,  les  associations  partenaires  ainsi  que  le  centre 
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.18021097779273987 : m. claude farine, président de la coreg, informe le conseil que la ville de nyon a été au 
+0.18021103739738464 : m. claude farine, président de la coreg, informe le conseil que la ville de nyon a été au 
 centre des discussions du dernier conseil intercommunal qui s’est tenu le 14 décembre dernier 
 au casino-théâtre de rolle : trois préavis ont été acceptés, l’un sur le soutien au far°, festival 
 des arts vivants, les deux autres en lien avec les passerelles vélos en projet à nyon, auxquelles 
 la région participera au titre du disren. 
 ----
 Changement climatique [Pillier Environnemental]
-0.19485469162464142 : le festival far° est soutenu, outre la loterie romande et des fonds privés, par la ville de nyon, 
+0.194854736328125 : le festival far° est soutenu, outre la loterie romande et des fonds privés, par la ville de nyon, 
 mais également par le canton et la région. l’objet en discussion concernait le renouvellement 
 de la convention qui lie le far° et la région, avec, à la clé, un soutien de chf 330'000.- pour les 
 activités du festival durant la période 2023-2026, soit chf 80'000.- par an, et chf 90'000.- en 
@@ -138,7 +138,7 @@ par  la  nouvelle  responsable  de  la  culture,  mme  valérie  jeanrenaud,  et
 brochure, dont quelques exemplaires sont à disposition pour les personnes intéressées. 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.23610614240169525 : les quatre dernières années se sont avérées difficiles pour le far°, avec les travaux à l’usine à 
+0.23610609769821167 : les quatre dernières années se sont avérées difficiles pour le far°, avec les travaux à l’usine à 
 gaz et le covid, ce qui a obligé le festival à se redéfinir. ce dernier a finalement émigré au 
 centre-ville et bénéficie maintenant d’un nouveau lieu, les marchandises, pour suivre de jeunes 
 artistes et jouer son rôle de fabrique des arts vivants. de plus, le projet artistique de la nouvelle 
@@ -175,7 +175,7 @@ dans le passé, mais aussi de mieux assumer les missions de la région, notammen
 au sport.  
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.24096806347370148 : enfin, le conseil intercommunal a adopté un crédit de chf 250'000.- sur 5 ans pour financer 
+0.24096813797950745 : enfin, le conseil intercommunal a adopté un crédit de chf 250'000.- sur 5 ans pour financer 
 un programme en faveur de la biodiversité. jusqu’ici, la région agissait de deux manières : elle 
 finançait, en collaboration avec certaines communes ou des propriétaires privés, la préservation 
 de corridors biologiques sur des parcelles non agricoles. dans notre région très urbanisée, mais 
@@ -186,7 +186,7 @@ développer  la  biodiversité  sur  des  parcelles  en  jachère.  deux  démar
 étaient souvent confondues.  
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.3325881063938141 : la  région  a  décidé  de  réorganiser  son  travail  en  faveur  de  la  biodiversité.  des  projets 
+0.3325881361961365 : la  région  a  décidé  de  réorganiser  son  travail  en  faveur  de  la  biodiversité.  des  projets 
 thématiques  seront  proposés  chaque  année  à  l’ensemble  des  communes  membres.  des 
 mesures, déjà expérimentées auparavant, seront poursuivies (par exemple, la création de plans 
 d’eau pour la reproduction  des batraciens, la plantation de chênes), et la  palette des projets 
@@ -201,7 +201,7 @@ bâtiment eca 1484 à la rue des marchandises 9 - demande d’un crédit de chf 
 ttc pour la démolition du bâtiment et la création de 14 places de parc. 
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.2797202467918396 :  m. gianluca solimine se permet de prendre immédiatement la parole au sujet de l’objet traité 
+0.27972033619880676 :  m. gianluca solimine se permet de prendre immédiatement la parole au sujet de l’objet traité 
 et  souhaite  partager  quelques  éléments  qui,  à  ce  stade  du  débat  et  de  la  délibération,  lui 
 semblent essentiels pour que la délibération puisse advenir de la manière la plus constructive 
 possible  et,  notamment,  de  sorte  que  le  conseil  puisse  avoir  l’ensemble  de  l’information 
@@ -213,7 +213,7 @@ et prise en gestion du bâtiment ou des douze box à la rue des marchandises 9, 
 consiste à délibérer et voter sur la démolition et non pas sur les potentielles affectations à venir.
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.32106447219848633 : ecum, par son atelier d’intelligence collective réalisé le 7 octobre, a simplement démontré qu’il 
+0.3210645020008087 : ecum, par son atelier d’intelligence collective réalisé le 7 octobre, a simplement démontré qu’il 
 y  a  un  vif  intérêt  citoyen  à  faire  autre  chose  de  ce  bâtiment  qu’une  simple  destruction  avec  
 14 places de parc. parallèlement, il tient à informer le conseil que lui-même et m. giannattasio, 
 avaient spontanément entrepris une démarche auprès du président du conseil afin de vérifier 
@@ -224,7 +224,7 @@ il en ressort qu’ils ne doivent pas se récuser car, à ce stade, ils n’ont 
 ni matériel sur l’affaire. il se permet juste de citer l’analyse qu’a faite m. le président : « il y a
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.2905333638191223 :  une discrépance entre le rapport de majorité qui tient pour acquise l’implication d’ecum dans 
+0.29053348302841187 :  une discrépance entre le rapport de majorité qui tient pour acquise l’implication d’ecum dans 
 le futur du bâtiment et ce qui ressort de la synthèse ecum qui a été envoyée au rapporteur ». ce document, et il trouve cela dommage, n’a pas été transmis à l’ensemble du conseil. il s’agit 
 d’une  synthèse  de  trois  pages,  avec  six  objectifs,  qui  aurait  sans  doute  permis  d’avoir  une 
 meilleure  compréhension  de  la  méthodologie  qui  a  été  entreprise  par  ecum. il  poursuit  la 
@@ -239,7 +239,7 @@ Opposition des parties prenantes [Pillier Sociale]
 contextualiser et reste à disposition pour éclaircir certains éléments qui pourraient être obscurs.
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.34122759103775024 : m. yves gauthier-jaques les remercie pour cette prise de parole. pour sa part, il est tout 
+0.341227650642395 : m. yves gauthier-jaques les remercie pour cette prise de parole. pour sa part, il est tout 
 à fait d’accord avec eux, il n’y a pas d’article 60 à faire valoir dans ce cas. il trouve toutefois un 
 peu dommage et difficile d’accepter, que les membres de ce conseil qui ont été indirectement 
 informés des teneurs des discussions au sein de la commission, puisqu’en finalité ils sont quand 
@@ -248,7 +248,7 @@ une troisième personne. pour lui, ils sont partie prenante et il trouve cela fo
 invitent au moins à s’abstenir pour qu’il y ait une égalité de traitement par rapport à cette affaire.  
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.22819188237190247 :  m.  alexander  federau  pense  qu’avec  ce  préavis  on  envoie  un  très  mauvais  signal  à  la 
+0.22819189727306366 :  m.  alexander  federau  pense  qu’avec  ce  préavis  on  envoie  un  très  mauvais  signal  à  la 
 population nyonnaise. il commence par rappeler que la municipalité ne sait pas, aujourd’hui, ce 
 qu’elle compte faire, à terme, de ce secteur. il est vraiment étonné de sa proposition de démolir 
 ce  bâtiment  maintenant,  alors  que  rien  ne  l’y  oblige. il  ne  comprend  pas  qu’en  2023,  nous 
@@ -260,7 +260,7 @@ devenir  permanentes  dans  une  partie  de  la  ville  qui  en  regorge. il  cr
 d’enterrer les places de parking à perdtemps et non d’en rajouter en surface.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.39847296476364136 : il n’y a pas de 
+0.39847293496131897 : il n’y a pas de 
 raison ni d’enlaidir, ni d’appauvrir aujourd’hui ainsi la ville. en effet, ce bâtiment apporte de la 
 valeur  et  plusieurs  acteurs  demandent  de  le  conserver. l’association  pro  novioduno,  dont 
 l’objectif est la sauvegarde du patrimoine artistique et historique de la ville de nyon ainsi que 
@@ -293,7 +293,7 @@ membres de la commission d’urbanisme et des associations pertinentes pour le s
 le préavis traité. une large consultation permettrait pourtant de libérer l’imagination pour aboutir
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.43867599964141846 : à un projet intéressant. des projets similaires de valorisation le prouvent. a genève, une zone 
+0.43867579102516174 : à un projet intéressant. des projets similaires de valorisation le prouvent. a genève, une zone 
 expérimentale  a  été  mise  en  place  à  châtelaine  qui  compte  désormais  une  ressourcerie 
 urbaine, une scierie et une petite brasserie. a lausanne, le bâtiment à la rue du simplon 26 est 
 devenu une galerie avant sa démolition. il demande de donner une chance à ces démarches 
@@ -316,7 +316,7 @@ artisanaux qui  pensent que raser ce quartier équivaut à  effacer une partie  
 ville.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.37046849727630615 : elle rappelle que le vœu avait été émis par des conseillers dans le préavis 2021-007 de 
+0.37046852707862854 : elle rappelle que le vœu avait été émis par des conseillers dans le préavis 2021-007 de 
 poursuivre la démarche participative pour perdtemps-usteri, surtout qu’il existe maintenant ce 
 concept  d’urbanisme  transitoire  présenté  par  le  groupe  ecum,  concept  développé  à  la 
 demande de l’association perdtemps-usteri et dont l’objectif est de transformer temporairement 
@@ -328,7 +328,7 @@ ville  et  le  travail  des  quatre  chefs  de  projets  engagés  pour  perdtem
 certainement très éclairés sur cette question.
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.33776551485061646 : elle trouverait donc dommage que la municipalité, 
+0.3377654552459717 : elle trouverait donc dommage que la municipalité, 
 ainsi que le conseil, ignorent le rapport ecum, ainsi que les vœux des habitants du quartier, 
 de spécialistes ou d’associations culturelles reconnues. il lui semble que l’urgence devrait être 
 de surseoir à cette démolition et de réfléchir avec toutes les parties prenantes au devenir de ce 
@@ -359,14 +359,14 @@ avant que ces derniers ne déménagent à champ-colin. la municipalité décide 
 de  le  raser. malgré  quelques  oppositions  et  une  pétition,  le  conseil  accepte.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.2296329140663147 : le  bâtiment, 
+0.2296329289674759 : le  bâtiment, 
 considéré, encore aujourd’hui, comme emblématique de l’architecture industrielle des années 
 30, est condamné pour deux raisons : d’une part, il est jugé vétuste, en mauvais état, et d’autre 
 part, il faut faire place nette pour le futur quartier du martinet. or, quinze ans après, ce périmètre 
 n’est toujours pas construit.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.29486697912216187 : leur conviction est donc, et cet exemple le montre, qu’il n’est absolument pas nécessaire de 
+0.29486703872680664 : leur conviction est donc, et cet exemple le montre, qu’il n’est absolument pas nécessaire de 
 raser  le  bâtiment  des  marchandises  avant  qu’on  ne  sache  exactement  ce  que  le  quartier 
 d’usteri  va  devenir.  ce  bâtiment  est  certes  un  objet  moins  important  dans  l’œuvre  de  louis 
 genoud,  un  architecte  qui  a  été  le  témoin  d’une  période  charnière  de  l’architecture  du  
@@ -374,14 +374,14 @@ genoud,  un  architecte  qui  a  été  le  témoin  d’une  période  charniè
 et assumer une nouvelle fonction sociale ou culturelle.  
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.3652823567390442 : en  résumé,  le  groupe  socialiste  demande  donc  à  la  municipalité  d’abandonner  le  projet  de 
+0.3652822971343994 : en  résumé,  le  groupe  socialiste  demande  donc  à  la  municipalité  d’abandonner  le  projet  de 
 démolition,  pour  l’instant  au  moins,  de  prendre  en  compte  les  propositions  de  l’association 
 ecum et d’étudier comment il serait possible de laisser s’exprimer la créativité, l’inventivité à 
 cet  endroit  pendant  les  10  ou  15  prochaines  années.  avec,  pourquoi  pas,  une  démarche 
 participative, qui permettrait d’associer aussi les habitants de ce quartier. 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.40921902656555176 :  m.  jacky  colomb  pense  que  la  proposition  de  conserver  le  bâtiment  à  la  rue  des 
+0.4092189073562622 :  m.  jacky  colomb  pense  que  la  proposition  de  conserver  le  bâtiment  à  la  rue  des 
 marchandises 9 comporte de nombreux inconvénients, voire de dangers. il va nécessiter du fait 
 d’un changement d’affectation, une mise à l’enquête, une mise aux normes environnementales, 
 des coûts de rénovation prohibitifs, des risques de surprise lors de la rénovation et des surcoûts 
@@ -393,7 +393,7 @@ avantageusement aménagée en place d’agrément. en ce sens, la municipalité 
 à diverses propositions émises en commission, et justement relevé dans le rapport de minorité.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.3280574083328247 : une place de jeux pour enfants, un espace de convivialité, de rencontres, une zone de parcage 
+0.3280574679374695 : une place de jeux pour enfants, un espace de convivialité, de rencontres, une zone de parcage 
 vélos  et  autres  engins  de  mobilité  active,  abrité  ou  non,  une  zone  de  portakabins  légaux  et 
 sécurisés pour diverses activités associatives ou pour l’accueil de personnes en détresse. cette 
 solution aura le mérite de convenir au plus grand nombre : les habitants du quartier, les usagers 
@@ -405,14 +405,14 @@ modulable  ce  qui  n’est  pas  le  cas  des  garages  proposés  initialement
 n’hypothèque pas le devenir du quartier en figeant une construction pendant des décennies.
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.31068310141563416 : il 
+0.31068316102027893 : il 
 souligne, en outre, que la municipalité ne semble pas accrochée à l’idée des 14 places de parc 
 qui, on l’a vu, ne font pas l’unanimité ni dans l’un, ni dans l’autre rapport. il engage le conseil à 
 voter  le  préavis  42  qui  permettra,  en  tout  temps,  un  développement  urbain  cohérent  de  cet 
 espace de notre ville en mutation.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.3801615238189697 : quand  il  entend  parler  de  ce  bâtiment,  m.  daniel  grosjean  a  l’impression  que  l’on  veut 
+0.38016146421432495 : quand  il  entend  parler  de  ce  bâtiment,  m.  daniel  grosjean  a  l’impression  que  l’on  veut 
 démonter le château. il ne faut pas perdre de vue que l’utilisation future de ces locaux sera de 
 la responsabilité de la municipalité, dont les règles ont été énoncées dans les rapports. ainsi, 
 cette  transformation  ne  va  pas  se  réaliser  avec  un  simple  coup  de  pinceau.  ce  sera  une 
@@ -423,7 +423,7 @@ usteri.  il  demande  de  soutenir  le  préavis  pour  permettre  d’avoir  un
 arguments énoncés par m. colomb. 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.30487799644470215 : m. olivier monge précise que ce bâtiment est voué à disparaître, mais il est vrai que la minorité 
+0.30487796664237976 : m. olivier monge précise que ce bâtiment est voué à disparaître, mais il est vrai que la minorité 
 de la commission n’a pas amendé le point 2 des conclusions. toutefois, dans les conclusions 
 du rapport de minorité, il est précisé qu’il a été donné des exemples d’utilités qui pourraient être 
 faites de la surface dégagée à cet endroit. on ne sait pas encore ce qu’il adviendra de cette 
@@ -433,12 +433,12 @@ commission est unanime pour dire qu’ils ne sont pas enchantés de voir 14 plac
 endroit.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.17866912484169006 : m. yves gauthier-jaques rebondit sur quelques propos tenus. il revient sur les propos de 
+0.17866908013820648 : m. yves gauthier-jaques rebondit sur quelques propos tenus. il revient sur les propos de 
 m. federau qui parlait  de  libérer  l’imagination. la question à se poser  et de savoir pourquoi 
 l’imagination ne peut pas se libérer sur l’espace complétement ouvert et de réfléchir à quelque 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.34133923053741455 :  chose  de  nouveau. il  a  l’impression  que  c’est  uniquement  à  travers  le  bâtiment  qu’il  pourra 
+0.3413391709327698 :  chose  de  nouveau. il  a  l’impression  que  c’est  uniquement  à  travers  le  bâtiment  qu’il  pourra 
 libérer l’imagination. il signale à mme bertola que la commission a été claire que ce soit dans 
 le rapport de minorité ou majorité, il y a une volonté que cet espace ouvert ne soit pas forcément 
 attribué  à  des  places  de  parc. ils  ont  essayé  d’avoir  des  informations  pour  amender  les 
@@ -457,7 +457,7 @@ ville, notamment au chemin de bourgogne, où le bâtiment est en meilleur état.
 il demande le vote nominal.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.2778621315956116 :  m. le municipal claude uldry pense qu’il n’est pas nécessaire de faire un long plaidoyer vu 
+0.2778620719909668 :  m. le municipal claude uldry pense qu’il n’est pas nécessaire de faire un long plaidoyer vu 
 que  les  positions  sont  relativement  clairement  exprimées. néanmoins,  il  donne  quelques 
 précisions puisque les deux séances de commission ont eu lieu il y a quelques mois. il a été dit 
 plusieurs fois et il le confirme, la municipalité est clairement ouverte à ne pas faire de places de 
@@ -468,7 +468,7 @@ d’un bâtiment, même une simple mise à disposition gratuite, pour tout accid
 restera responsable de son bâtiment.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.34941956400871277 : quand une personne est propriétaire d’un logement et 
+0.3494195342063904 : quand une personne est propriétaire d’un logement et 
 qu’elle  le  loue,  s’il  n’est  pas  aux  normes,  ce  n’est  pas  de  la  faute  du  locataire  s’il  se  passe 
 quelque chose de malheureux. a partir du moment où tout le monde en est conscient, il ne faut 
 pas simplement dire non à une démolition, mais il faut envisager de faire quelque chose de ce 
@@ -480,7 +480,7 @@ on  ne peut  pas  dans  des  garages, mettre des gens  qui travaillent ou font d
 sans changer l’affectation.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.3532606363296509 : il revient au devoir du propriétaire, changement d’affectation signifie 
+0.3532605767250061 : il revient au devoir du propriétaire, changement d’affectation signifie 
 mise à l’enquête, mise à l’enquête veut dire mise aux normes, pas uniquement électriques, mais 
 également eca et autres normes. aujourd’hui, lorsque l’on met à l’enquête, ils doivent aussi 
 respecter les normes énergétiques qui sont demandées dans toute rénovation conséquente. or, cela sera une rénovation conséquente. cela peut être fait, mais il y a un certain nombre de 
@@ -510,7 +510,7 @@ en rajouter. il pense que cette pétition envoyée à la municipalité est un si
 pour cela qu’il demande le vote nominal.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.2120155543088913 : m. vadim rochat rappelle que, certes ce n’est pas une obligation légale, mais afin d’envoyer 
+0.21201559901237488 : m. vadim rochat rappelle que, certes ce n’est pas une obligation légale, mais afin d’envoyer 
 un signal encore plus fort et donner une certaine légitimité démocratique à cet outil qu’est la 
 pétition, il pense que ce serait utile que cette commission, qui ne se réunit pas très souvent, 
 compte les voix pour savoir le nombre de nyonnaise et nyonnais qui ont signé, spécialement 
@@ -518,7 +518,7 @@ dans  le  cadre  d’un  objet  comme  celui-là,  où  potentiellement  beaucou
 communes relativement lointaines ont ajouté leur signature au document.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.20478129386901855 : m. sacha vuadens rappelle qu’il s’agit de se prononcer sur la légalité d’une pétition à renvoyer 
+0.20478130877017975 : m. sacha vuadens rappelle qu’il s’agit de se prononcer sur la légalité d’une pétition à renvoyer 
 à  la  municipalité.  il  ne  s’agit  pas  d’un  débat  de  fond,  même si  certaines  personnes  pensent 
 savoir  ce  que  va  devenir  le  stade  de  marens.  en  lisant  les  documents,  on  constate  qu’il  va 
 surtout y avoir des études pour cet espace vert. il ne voit pas pourquoi le vote doit être nominal. 
@@ -536,7 +536,7 @@ s’agit d’un objet de compétence du conseil et le vote se fait sur la prise 
 non, ce qui revient au-même. pour lui, il s’agit d’une prise en considération.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.26506489515304565 : m.  jacky  colomb  fait  remarquer  qu’il  s’agit  d’un  droit  démocratique  fondamental.  tout  le 
+0.26506495475769043 : m.  jacky  colomb  fait  remarquer  qu’il  s’agit  d’un  droit  démocratique  fondamental.  tout  le 
 monde a le droit de signer une pétition, habitant de nyon, ou pas. en ce domaine, il s’agit d’un 
 objet qui intéresse fortement les gens de la région puisque les petits footballeurs viennent de 
 toutes les communes alentour. il ne voit pas dans un premier temps, ce qui aurait justifié de 
@@ -547,14 +547,14 @@ faire c’est de voter à  l’unanimité pour préserver le droit démocratique
 peut-être pas à certains, mais une autre, une autre fois, leur conviendra.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.32250773906707764 : mme béatrice enggist souhaite répondre à m. vadim rochat et lui rappelle que lors de la 
+0.3225076496601105 : mme béatrice enggist souhaite répondre à m. vadim rochat et lui rappelle que lors de la 
 commission, comme indiqué dans le rapport, un vote démocratique a été effectué au sein de 
 tous les membres de la commission qui a siégé au complet. le résultat du vote pour savoir s’il 
 fallait recompter ou pas, était qu’il y avait 2 pour, 5 contre et 3 abstentions. la commission a 
 démocratiquement voté contre.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.26546216011047363 : m. pierre patelli rappelle la tradition au sein de la commission des pétitions, ils comptent la 
+0.265462189912796 : m. pierre patelli rappelle la tradition au sein de la commission des pétitions, ils comptent la 
 provenance (nyon, région, hors du canton) ceci pour donner plus ou moins d’importance à la 
 signature.  on  sait  que  dans  ce  cas,  il  y  a  un  enjeu  politique,  que  certains  ont  basé  leur 
 campagne politique sur un soutien à ce stade, donc certains avaient un enjeu à ne pas compter. 
@@ -569,7 +569,7 @@ Opposition des parties prenantes [Pillier Sociale]
 transmet la pétition à la municipalité comme objet de sa compétence. (votes en annexe) 
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.23358550667762756 :  m. victor allamand pense que les conseillers vont le trouver un peu long et il s’en excuse 
+0.23358546197414398 :  m. victor allamand pense que les conseillers vont le trouver un peu long et il s’en excuse 
 par avance, mais il s’agit là de sa dernière intervention devant l’assemblée, puisqu’à la fin de 
 cette séance, il démissionnera du conseil communal de nyon. il demande donc à monsieur le 
 président du conseil de bien vouloir prendre acte de sa démission en date du 31 janvier 2023. tout d’abord, il souhaite remercier celles et ceux avec qui il a eu l’honneur de travailler au mieux 
@@ -580,18 +580,18 @@ l’assemblée, il faut reconnaître qu’il lui est loisible de s'interroger su
 durablement en faveur de notre ville. le choc peut être rude !
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.25023242831230164 : pour sa part, sa contribution a 
+0.250232458114624 : pour sa part, sa contribution a 
 consisté à l’ajout du cartouche en pied de la page jaune du titre des préavis. il a naturellement 
 aussi déposé postulats, motions, interpellations, entre autres pour les rives du lac, la rdu, etc. mais rien n’a abouti.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.2121657431125641 : cette introspection lui a permis de se souvenir, peu après l’arrivée au pouvoir de monsieur le 
+0.2121657133102417 : cette introspection lui a permis de se souvenir, peu après l’arrivée au pouvoir de monsieur le 
 syndic, des réunions informelles qu’il avait organisées, notamment avec nicolas vultier, afin de 
 connaître les attentes des nyonnais. un jour, il était arrivé à la brétèche avec, sous le bras, un 
 impressionnant  paquet  de  plans  qui,  après  énumération,  s'avéraient  être  uniquement  des 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.2948247492313385 : études des rives du lac remontant à mathusalem. il avait conclu cette séance en disant que 
+0.2948248088359833 : études des rives du lac remontant à mathusalem. il avait conclu cette séance en disant que 
 l’époque où l’on faisait des études pour remplir les tiroirs était révolue, mais qu’on avancerait 
 petit à petit, chaque fois que possible. ces propos l'avaient enthousiasmé et ils auguraient d’un 
 très bel avenir. 
@@ -616,7 +616,7 @@ qui avait délégué à prangins trois de ses membres, dont sa présidente, pour
 l’environnement politique a changé et désormais on ne parle plus de rdu.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.27574047446250916 :  nous  avons  tous  nos  responsabilités  dans  cette  recrudescence  d’études. parfois,  lorsque  le 
+0.27574044466018677 :  nous  avons  tous  nos  responsabilités  dans  cette  recrudescence  d’études. parfois,  lorsque  le 
 conseil  renvoie,  par  couardise,  à  la  municipalité  des  demandes  inutiles  et  hors  de  propos. récemment, la demande visait un perturbateur endocrinien qui concernait davantage l’office 
 fédéral de la santé que la municipalité. cette façon de se mettre en scène vis-à-vis des électeurs 
 en  demandant  tout  et  n’importe  quoi,  est  un  gaspillage  éhonté  du  temps  des  conseillers 
@@ -651,19 +651,19 @@ l’excellente conclusion de son collègue m. dominique karlen, avec la particip
 commission, dont par ailleurs deux architectes : 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.20940959453582764 : le programme de législature 2016-2021 est un beau catalogue des projets de la municipalité, 
+0.20940962433815002 : le programme de législature 2016-2021 est un beau catalogue des projets de la municipalité, 
 il ne devra pas rester qu’un catalogue, il faudra des actes forts et des réalisations concrètes 
 pour faire vivre ce programme, que ce soit perdtemps, colovray, la gare, les rives du lac ou le 
 musée du léman. comme dit dans le rapport, même s’il manque un peu d’audace ou de rêve, 
 il a le mérite d’exister et qui sait l’appétit vient en mangeant, c’est ça aussi rêver. 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.24917921423912048 : ensuite, l’indigence du programme de législature 2022, renforce encore cette constatation. la 
+0.2491791695356369 : ensuite, l’indigence du programme de législature 2022, renforce encore cette constatation. la 
 municipalité dévoile sa vision à travers une volonté politique forte et pragmatique, phrase creuse 
 qui n’incite toujours pas au rêve. maintenant il n’y plus qu’à attendre l’échéance annoncée. 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.27100038528442383 : déjà  emblématique  dans  la  législature  précédente,  le  parc  perdtemps  est  devenu,  selon  la 
+0.27100032567977905 : déjà  emblématique  dans  la  législature  précédente,  le  parc  perdtemps  est  devenu,  selon  la 
 municipalité,  le  projet  du  siècle  pour  nyon.  a  travers  le  préavis  2021/7  totalisant  
 chf  1,6  millions  et,  toujours  pour  perdtemps,  le  préavis  2022/51  pour  lequel  le  conseil  a 
 accordé, quatre ept totalisant chf 6,4 millions pendant 10 ans. le projet n’est toujours qu’au 
@@ -680,13 +680,13 @@ baisse, voire en abandonner quelques-uns et questionner aussi le niveau de certa
 prestations. 
 ----
 pollution et déchets [Pillier Environnemental]
-0.18252171576023102 : des priorisations ont déjà été effectuées en 2020, cela portait sur plus de chf 167 millions, 
+0.18252167105674744 : des priorisations ont déjà été effectuées en 2020, cela portait sur plus de chf 167 millions, 
 touchait une dizaine de services et concernait plus de 50 objets. en lisant entre les lignes, il y 
 a bien des choses qu’il risque de ne pas voir. pourtant, s’agissant de perdtemps, il en a déjà 
 entendu parler il y a 60 ans. 
 ----
 Changement climatique [Pillier Environnemental]
-0.20515790581703186 :  en 1985, la ville de nyon a acheté et démoli la fabrique d'allumettes sise au martinet. vingt ans 
+0.20515786111354828 :  en 1985, la ville de nyon a acheté et démoli la fabrique d'allumettes sise au martinet. vingt ans 
 plus  tard,  après  moult  études  et  un  plan  de  quartier  plus  ou  moins  abouti,  son  collègue  
 m. patrick buchs comparait cette parcelle de plus de 10'000 m2 à un décor de film de sergio 
 leone. le refus de la petite ceinture par les nyonnais avait stoppé le projet du martinet qui avait 
@@ -702,7 +702,7 @@ Opportunités Environnementals [Pillier Environnemental]
 0.22651904821395874 : en  attendant,  nous  aurons  un  beau  parc  à  chiens  et  une  maison  de  paille. sommes-nous des spécialistes des constructions de pacotille ?
 ----
 Gouvernance d'entreprise [Pillier de la gouvernance]
-0.2668786644935608 :  la coges, une fois déchargée du suivi  de la crise  de  l’exécutif et  de l’administration, aura 
+0.26687872409820557 :  la coges, une fois déchargée du suivi  de la crise  de  l’exécutif et  de l’administration, aura 
 peut-être envie de se pencher sur la gouvernance de la ville. a ce moment, elle pourra peut-
 être prendre connaissance du résultat de l’enquête demandée à la cour des comptes du canton 
 de vaud  en  novembre 2022. dans sa  demande à  la  cour, l’association « nyon  autrement » 
@@ -718,7 +718,7 @@ pollution et déchets [Pillier Environnemental]
 de mémoire et un défaut de continuité d’un montant incalculable.
 ----
 pollution et déchets [Pillier Environnemental]
-0.21906889975070953 : il pourrait poursuivre en évoquant le ratage en règle de la rdu, les procrastinations de notre 
+0.21906888484954834 : il pourrait poursuivre en évoquant le ratage en règle de la rdu, les procrastinations de notre 
 municipalité  jusqu’à  ce  que  prangins  jette  l’éponge,  la  saga  de  clémenty  et  les  errances 
 administratives  et  juridiques  des  services,  les  indigences  de  l’informatique,  suite  à  la 
 rétrogradation du service en office à la solde du sag et amputé de ses compétences avérées. 
@@ -728,7 +728,7 @@ toujours  la  totale  indépendance  dans  ses  propos  l’aura  infiniment  co
 choisi le bon parti. 
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.26838159561157227 :  mme laure damtsas relève que « 24heures » titrait, il y a 10 jours, que la cogestion semait 
+0.2683815360069275 :  mme laure damtsas relève que « 24heures » titrait, il y a 10 jours, que la cogestion semait 
 la zizanie dans les communes. on peut dire qu’à nyon c’est l’inverse : il semble parfois difficile 
 de faire prévaloir la séparation des pouvoirs par l’exécutif. cela a été le cas en juin dernier et, 
 lors du dernier conseil pendant le débat sur le rapport concernant la cybersécurité et du préavis 
@@ -754,7 +754,7 @@ chf  900'000.-. elle  demande  des  détails  afin  de  savoir  comment  le  pri
 descendu de chf 440'000.- à chf 150'000.-.
 ----
 Responsabilité du produit [Pillier Sociale]
-0.28176409006118774 : certains ont compris que l’amendement était un 
+0.2817642092704773 : certains ont compris que l’amendement était un 
 « discount »  sur  le  préavis  (faire  mieux  avec  moins),  mais  m.  le  syndic  a  annoncé  qu’il 
 reviendrait dans quelques mois avec un autre préavis qui sera l’occasion de tenter de vulgariser 
 le sujet et que finalement ce préavis est un acompte sur la suite. elle demande des clarifications, 
@@ -774,21 +774,21 @@ d’un débat constructif, nous avons assisté à ce qui ressemble à une manœu
 beaucoup d’incertitudes, ce qu’elle trouve tout à fait regrettable.
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.2594847083091736 : m. claude farine souhaite savoir où en est le concept de mobilité urbaine. il y a quelques 
+0.25948476791381836 : m. claude farine souhaite savoir où en est le concept de mobilité urbaine. il y a quelques 
 mois, les associations de cyclistes ont été convoquées pour une première séance pour faire le 
 point. il souhaite savoir si cette démarche sera quand même faite. d’autre part, il fait remarquer 
 qu’il y a longtemps que mme la municipale n’a pas fait le point sur la manière dont les nyonnais 
 s’appliquent à faire le tri des déchets. il aimerait avoir une information à ce sujet.  
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.39921993017196655 : mme la municipale roxane faraut lui répond qu’il y aura un point déchets, comme chaque 
+0.3992198407649994 : mme la municipale roxane faraut lui répond qu’il y aura un point déchets, comme chaque 
 année, dans le rapport de gestion. il y aura l’ensemble des statistiques concernant les tonnages. 
 une  ressource  qu’ils  souhaitent  récolter  avec  un  plus  fort  tonnage  sont  les  organiques, 
 d’énormes progrès peuvent encore être faits. certaines choses changeront peut-être fin 2023, 
 début 2024.  
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.21939519047737122 : mme  valérie  mausner  leger  constate  que  la  menace  d’un  délestage  s’éloigne,  mais  la 
+0.21939516067504883 : mme  valérie  mausner  leger  constate  que  la  menace  d’un  délestage  s’éloigne,  mais  la 
 facture  énergétique  va  bel  et  bien  augmenter.  si  les  grandes  sociétés  ont  les  moyens  de 
 demander à des techniciens de les aider à réduire leur consommation, il n’en va pas de même 
 pour les pme. il est vrai qu’il y a des mesures générales avec le programme eee qui permet 
@@ -799,7 +799,7 @@ l’énergie,  pour  permettre  à  des  pme  nyonnaises  d’avoir  une  aide  
 propre consommation. 
 ----
 Responsabilité du produit [Pillier Sociale]
-0.18733008205890656 : mme arianne schwab hug fait part du regret de plusieurs concitoyens de ne plus recevoir le 
+0.18733006715774536 : mme arianne schwab hug fait part du regret de plusieurs concitoyens de ne plus recevoir le 
 tous-ménages qui était envoyé quelques fois par année sur format papier, particulièrement les 
 personnes âgées qui ne vont pas facilement aller sur internet.  elle-même aimait bien lire ce 
 document lorsqu’elle n’était pas encore élue.  
@@ -811,7 +811,7 @@ mois, mais ils désirent reprendre cette diffusion. le rythme doit encore être 
 bien conscients que la newsletter ne touche pas tous les nyonnais.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.2052702009677887 :  m. michael sauerlaender rappelle qu’il fut un certain temps où l’on célébrait noël à nyon. force  est  de  constater  qu’après  avoir  subi  des  décorations  de  noël  avec  des  triangles  à 
+0.20527011156082153 :  m. michael sauerlaender rappelle qu’il fut un certain temps où l’on célébrait noël à nyon. force  est  de  constater  qu’après  avoir  subi  des  décorations  de  noël  avec  des  triangles  à 
 câblages  qui  pullulaient  aux  quatre  coins  de  la  ville,  nous  sommes  passés  à  un  nouveau 
 concept. si les manifestations ponctuelles avec bougies dans différents quartiers ont rencontré 
 un franc succès auprès de ceux qui ont eu du plaisir d’y assister, l’ambiance de notre ville la 
@@ -833,7 +833,7 @@ il y a plein d’idées créatives pour faire du participatif, cher à la ville,
 avec des jeunes, avec des contributions à moindre frais et surtout en économisant de l’énergie.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.20118024945259094 : réfléchir à l’installation d’un sapin en bois durable qui pourrait trôner sur notre magnifique place 
+0.20118016004562378 : réfléchir à l’installation d’un sapin en bois durable qui pourrait trôner sur notre magnifique place 
 du château, être intégré à des manifestations telle que celle des bougies mise en place par 
 l’association ecum, qui était magnifique, tout en égayant la place, nuit et jour, en dehors de 
 ces manifestations. il ne cherche pas à réinventer la roue et dépenser des sommes folles par 
@@ -842,7 +842,7 @@ peut  faire  pour  éviter  de  devenir  la  capitale  du  noël  tristounet. en
 dommage de devoir aller dans des centres commerciaux pour se rendre compte que c’est noël.
 ----
 Changement climatique [Pillier Environnemental]
-0.19373807311058044 : m. le municipal pierre wahlen précise que la municipalité fait, en ce moment même, un bilan 
+0.19373804330825806 : m. le municipal pierre wahlen précise que la municipalité fait, en ce moment même, un bilan 
 de l’édition 2022 des fêtes de noël avec l’ensemble des acteurs concernés, y compris la sic. il 
 regrette  que  son  appréciation  soit  si  négative,  pour  sa  part,  il  n’a  eu  que  des  retours 
 extrêmement positifs sur cette première édition. ils vont faire un bilan et réfléchir à ce qu’ils vont 
@@ -856,7 +856,7 @@ et  sa  localisation.  il  constate  que  l’on  peut  passer  à  côté  en  
 explications.  
 ----
 pollution et déchets [Pillier Environnemental]
-0.3698750138282776 : m.  yves  gauthier-jaques  intervient  au  sujet  de  la  déchèterie,  plus  particulièrement  la 
+0.3698749244213104 : m.  yves  gauthier-jaques  intervient  au  sujet  de  la  déchèterie,  plus  particulièrement  la 
 ressourcerie. il a constaté une très forte baisse du dépôt des objets. elle a été inaugurée d’une 
 manière géniale et il est assez sensible à ceci étant donné qu’il faisait partie de ceux qui étaient 
 très favorables à la réaliser. il a également remarqué un manque de sensibilisation de la part 
@@ -866,7 +866,7 @@ vécu à trois reprises. il a même échangé avec un employé qui a expliqué q
 jeter. il lui semble intéressant de faire un rappel aux employés.  
 ----
 pollution et déchets [Pillier Environnemental]
-0.3350573778152466 : mme la municipale roxane faraut lui signale qu’elle viendra avec une réponse très complète 
+0.33505740761756897 : mme la municipale roxane faraut lui signale qu’elle viendra avec une réponse très complète 
 le mois prochain. ils s’étaient engagés à faire un bilan après six mois, ils le feront après huit. il 
 y  a  toujours  autant  de  dépôt  d’objets,  beaucoup  de  gens  viennent  en  chercher,  ce  qui  créé 
 passablement de problèmes en termes de circulation dans la déchèterie de manière générale, 
@@ -879,7 +879,7 @@ abris antiatomiques. elle n’a pas souvenir d’avoir entendu une réponse.
 Changement climatique [Pillier Environnemental]
 0.201552614569664 : m. le municipal pierre wahlen se souvient avoir répondu à une question sur les abris suite à 
 une  interpellation  de  mme  alexia  seguy  qui  s’inquiétait  de  savoir  s’ils  étaient  en  nombre 
-suffisants, c’était le 2 mai 2022.
+suffisants, c’était le 2 mai 2022.  
 ----
 Opportunités Environnementals [Pillier Environnemental]
 0.2834460139274597 :  m. pierre patelli avoue être très déçu de ce rapport-préavis, non pas que ce soit important 
@@ -892,7 +892,7 @@ n’étaient pas là. maintenant, on revient en disant qu’on va faire des indi
 génération,  car  cela  fait  25  ans  que  l’on  tente  de  réaliser  cet  objectif.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.33959490060806274 : il  estime  que  c’est  un 
+0.3395949602127075 : il  estime  que  c’est  un 
 échec de la politique communale de nyon sur cette question énergétique. on peut l’inculquer à 
 différents  facteurs,  si  c’est  la  municipalité  d’avant,  celle  de  maintenant,  mais  on  voit  que  la 
 municipalité n’atteint pas son objectif, nous n’arrivons pas à avoir actuellement une stratégie 
@@ -904,7 +904,7 @@ imaginable. il demande aux commissaires de prendre les choses à bras le corps e
 être enfin une  perspective  à donner  à  la  population  pour les années  2050.
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.30954620242118835 : cela ne  doit pas 
+0.30954617261886597 : cela ne  doit pas 
 seulement  venir  des  verts,  les  autres  partis  ont  également  quelque  chose  à  amener. malheureusement  la  municipalité  ne  l’a  pas  fait. il  demande  à  la  commission  d’amener  des 
 réponses, car nous devons avoir un plan pour les années à venir car si nous continuons ainsi, 
 nous aurons toujours des indicateurs et pas de projets réalisés.
@@ -921,7 +921,7 @@ modification du droit de superficie distinct et permanent (ddp) à titre onéreu
 la coopérative de l’habitat associatif sur la parcelle n° 1071. 
 ----
 Changement climatique [Pillier Environnemental]
-0.25888311862945557 : préavis n° 2023/91 
+0.2588830292224884 : préavis n° 2023/91 
 campagne de comptages 2023 - demande de crédit de chf 166'000.— ttc nécessaire à 
 l’actualisation des données de la campagne quinquennale de comptages de 2017 portant 
 sur  les  transports  individuels  motorisés,  les  transports  publics  et  la  mobilité  active 
@@ -944,12 +944,12 @@ pollution et déchets [Pillier Environnemental]
 les gens, sont plutôt des corneilles que des corbeaux freux.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.18871401250362396 : m. le municipal pierre wahlen confirme que les volatiles qui dérangent sont bien des corbeaux 
+0.18871411681175232 : m. le municipal pierre wahlen confirme que les volatiles qui dérangent sont bien des corbeaux 
 freux et non des corneilles. il ne peut expliquer la différence entre les uns et les autres, mais en 
 l’occurrence, les recensements qui ont été faits concernaient les corbeaux freux. 
 ----
 Opportunités Environnementals [Pillier Environnemental]
-0.38488394021987915 : préavis n° 2023/94 
+0.38488391041755676 : préavis n° 2023/94 
 projet d’aménagements en faveur de la biodiversité sur l’ensemble de la ville grâce au 
 - demande  d’un  crédit 
 laurelles  et 
@@ -971,7 +971,7 @@ excepté lors de la saison de récolte de betteraves, en automne, où le trafic 
 des questions de sécurité, cette ligne ne peut pas être utilisée à d’autres fins.
 ----
 Changement climatique [Pillier Environnemental]
-0.20771104097366333 : entre autres, la 
+0.20771105587482452 : entre autres, la 
 ligne nyon-eysins comporte 10 passages à niveaux qui doivent faire l’objet d’une remise aux 
 normes, ainsi que d’autres mises aux normes. de plus, cette ligne n’est pas électrifiée et ne 
 peut, en l’état, accueillir du trafic voyageurs. la ville de nyon mène des discussions étroites 
@@ -984,11 +984,11 @@ prospective. pour l’heure, la ville de nyon ne souhaite pas supprimer les inst
 sans engager une étude à ce sujet ».
 ----
 capital humain [Pillier Sociale]
-0.21620243787765503 : la ville de nyon est en contact étroit avec la région, les 
+0.21620240807533264 : la ville de nyon est en contact étroit avec la région, les 
 cff et le canton au sujet de la valorisation de cette ligne.
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.2649995982646942 : m.  yves  gauthier-jaques,  à  la  suite  de  la  décision  du  conseil  de  refuser  le  préavis 
+0.2649996280670166 : m.  yves  gauthier-jaques,  à  la  suite  de  la  décision  du  conseil  de  refuser  le  préavis 
 2022/42, invite la municipalité à prendre en considération au moins les vœux suivants : qu’un 
 appel d’offres public soit fait, et si, effectivement, le montant était inférieur à celui d’appel d’offres 
 public qu’il y ait au moins suffisamment d’entités qui soient sollicitées et pas seulement une ou 
@@ -997,8 +997,426 @@ soit fixé sur une durée de 15 ans pour éviter de péjorer le futur projet qui
 cet espace. un ddp sur 50 ans lui paraît excessif.  
 ----
 Opposition des parties prenantes [Pillier Sociale]
-0.17902052402496338 : m. victor allamand vient de se déplacer dans la salle. il savait qu’au centre de la salle, en 
+0.17902059853076935 : m. victor allamand vient de se déplacer dans la salle. il savait qu’au centre de la salle, en 
 bougeant la tête de 20 cm à gauche, il avait un son deux fois plus fort, mais il y a des inégalités 
 criantes. dans l’espace réservé aux spectateurs, on n’entend rien. il suggère à la municipalité 
 d’étudier la pose d’un haut-parleur supplémentaire.  
+----
+capital humain [Pillier Sociale]
+0.0960002988576889 : résultats individuels : 
+alberti marina 
+besse chloé 
+cardinaux muriel 
+chaperon fabrice 
+chevallay monique 
+daverio justine 
+farine claude 
+felix yves 
+gallay arlette 
+gennai ilithyia 
+hegetschweiler aurélie 
+job alix 
+joly mael 
+karlen dominique 
+marques manuel 
+montecchio chiara 
+naepflin jacqueline 
+rexhaj ermira 
+schwerzmann danièle 
+stalder olivier 
+sukiennik renata 
+urfer julien 
+vuadens sacha 
+adnane alexandre 
+andrievici damien 
+bajulaz romain 
+bertola carinne 
+borges maria ana 
+cayrol tania 
+delahaye sébastien 
+diserens marius 
+dupasquier armelle 
+dupuis alexandre 
+farine mathieu 
+federau alexander 
+giannattasio raffaele 
+hediger laetitia 
+ischi kaplan vanessa 
+kiefer evren 
+kornaros christos 
+mausner leger valérie 
+patelli pierre 
+rast frédéric 
+rochat vadim 
+schwab hug ariane 
+seguy alexia 
+solimine gianluca 
+----
+Opposition des parties prenantes [Pillier Sociale]
+0.2079051285982132 : non 
+non 
+non 
+non 
+non 
+- 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+- 
+non 
+abstention 
+non 
+- 
+non 
+non 
+non 
+- 
+non 
+- 
+non 
+non 
+non 
+non 
+- 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+non 
+abstention 
+non 
+- 
+non 
+----
+capital humain [Pillier Sociale]
+0.11014162003993988 : vetter joël 
+warmenbol claire 
+zaugg klara 
+alessandro giovanni 
+allamand victor 
+burdet civiero sabrina 
+colomb jacky 
+girard pierre 
+grosjean daniel 
+hanhart jacques 
+jenefsky robert 
+kuratle philippe 
+rochat blaise 
+uldry doris 
+vuille mathilde 
+vuille jean-pierre 
+braunwalder alex 
+lütjens robert 
+pieren taïna 
+ueltschi bernard 
+valea thomas 
+bieler eric 
+bordier caroline 
+buccino vincent 
+bürki véronique 
+caliri marie 
+damtsas laure 
+darbre gubbins florence 
+david françois 
+frei maurice 
+gauthier-jaques yves 
+hentsch sybille 
+jaquier camille 
+kirchner volker 
+monge olivier 
+olsen véronique 
+perez brigitte 
+perrin christian 
+ramos francia 
+riesen olivier 
+rrahmani ramadan 
+santantoniou john 
+sauerlaender michael 
+vuagniaux christine 
+carenza marco 
+delley stéphane 
+enggist béatrice 
+fargnoli yann 
+füglister jean-françois 
+nicole willy 
+nilsson hans rasmus 
+soldini sacha 
+weaver david 
+----
+Opportunités sociales [Pillier Sociale]
+0.09384821355342865 : non 
+- 
+non 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+non 
+non 
+non 
+non 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+----
+capital humain [Pillier Sociale]
+0.0960002988576889 : résultats individuels : 
+alberti marina 
+besse chloé 
+cardinaux muriel 
+chaperon fabrice 
+chevallay monique 
+daverio justine 
+farine claude 
+felix yves 
+gallay arlette 
+gennai ilithyia 
+hegetschweiler aurélie 
+job alix 
+joly mael 
+karlen dominique 
+marques manuel 
+montecchio chiara 
+naepflin jacqueline 
+rexhaj ermira 
+schwerzmann danièle 
+stalder olivier 
+sukiennik renata 
+urfer julien 
+vuadens sacha 
+adnane alexandre 
+andrievici damien 
+bajulaz romain 
+bertola carinne 
+borges maria ana 
+cayrol tania 
+delahaye sébastien 
+diserens marius 
+dupasquier armelle 
+dupuis alexandre 
+farine mathieu 
+federau alexander 
+giannattasio raffaele 
+hediger laetitia 
+ischi kaplan vanessa 
+kiefer evren 
+kornaros christos 
+mausner leger valérie 
+patelli pierre 
+rast frédéric 
+rochat vadim 
+schwab hug ariane 
+seguy alexia 
+solimine gianluca 
+----
+Opportunités sociales [Pillier Sociale]
+0.08786767721176147 : oui 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+- 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+----
+capital humain [Pillier Sociale]
+0.11014162003993988 : vetter joël 
+warmenbol claire 
+zaugg klara 
+alessandro giovanni 
+allamand victor 
+burdet civiero sabrina 
+colomb jacky 
+girard pierre 
+grosjean daniel 
+hanhart jacques 
+jenefsky robert 
+kuratle philippe 
+rochat blaise 
+uldry doris 
+vuille mathilde 
+vuille jean-pierre 
+braunwalder alex 
+lütjens robert 
+pieren taïna 
+ueltschi bernard 
+valea thomas 
+bieler eric 
+bordier caroline 
+buccino vincent 
+bürki véronique 
+caliri marie 
+damtsas laure 
+darbre gubbins florence 
+david françois 
+frei maurice 
+gauthier-jaques yves 
+hentsch sybille 
+jaquier camille 
+kirchner volker 
+monge olivier 
+olsen véronique 
+perez brigitte 
+perrin christian 
+ramos francia 
+riesen olivier 
+rrahmani ramadan 
+santantoniou john 
+sauerlaender michael 
+vuagniaux christine 
+carenza marco 
+delley stéphane 
+enggist béatrice 
+fargnoli yann 
+füglister jean-françois 
+nicole willy 
+nilsson hans rasmus 
+soldini sacha 
+weaver david 
+----
+Opportunités sociales [Pillier Sociale]
+0.09183625876903534 : oui 
+- 
+oui 
+abstention 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+- 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
+oui 
 ----

@@ -215,7 +215,6 @@ def get_results_dataframe(results_dict, sort='avg_score'):
         if top_level_key is not None:
             new_kt = kt + " [" + top_level_key + "]"
             df.loc[df['key_term'] == kt, 'key_term'] = new_kt
-    
     return df
 
 
@@ -254,35 +253,62 @@ def compute_baseline(pdf_file_path):
         dict: results dictionary
     """
     new_key_terms = combine_subkey_values(key_terms)
+    MIN_LENGTH = 150
+    MAX_LENGTH = 1024
 
     # pdf_file_path = "./ccpv230130.pdf"
     pv_full = extract_text_from_pdf(pdf_file_path)
-    pv_clean = clean_text(pv_full)
+    # pv_clean = clean_text(pv_full)
 
-    paragraphs = paragraph_tokenizer(pv_clean,min_length=150, threshold=10000)
+    # paragraphs = paragraph_tokenizer(pv_clean,min_length=MIN_LENGTH, threshold=MAX_LENGTH)
+    paragraphs = [clean_text(paragraph) for paragraph in paragraph_tokenizer(pv_full, min_length=MIN_LENGTH, threshold=MAX_LENGTH)]
+    print(f"Length of paragraphs: {len(paragraphs)}")
     
     key_terms_list = [value for key, subdict in new_key_terms.items() for subkey, value in subdict.items()]
 
     dictionary = corpora.Dictionary([word_tokenize(p) for p in paragraphs + key_terms_list])
 
     paragraph_bow = [dictionary.doc2bow(word_tokenize(p)) for p in paragraphs]
+    
+    print(f"Length of paragraph_bow: {len(paragraph_bow)}")
+    
+    
+    
     key_term_bow = [dictionary.doc2bow(word_tokenize(kt)) for kt in key_terms_list]
 
     model = models.LsiModel(paragraph_bow + key_term_bow, id2word=dictionary, num_topics=100)
     index = similarities.MatrixSimilarity(model[paragraph_bow + key_term_bow])
 
-    results = {}
-    for i, kt_bow in enumerate(key_term_bow):
-        sims = index[model[kt_bow]]
+    # results = {}
+    # for i, kt_bow in enumerate(key_term_bow):
+    #     sims = index[model[kt_bow]]
+    #     sorted_sims = sorted(enumerate(sims), key=lambda item: -item[1])
+    #     key_term = get_subkey(new_key_terms, key_terms_list[i])
+
+    #     for doc_position, doc_score in sorted_sims:
+    #         if doc_position < len(paragraphs):
+    #             paragraph = paragraphs[doc_position]
+    #             if paragraph not in results or doc_score > results[paragraph]['score']:
+    #                 results[paragraph] = {'key_term': key_term, 'score': doc_score,'index': doc_position}
+    
+   # Initialize the results dictionary with all paragraphs
+    results = {f"{paragraph}_{i}": {'key_term': None, 'score': 0, 'index': i} for i, paragraph in enumerate(paragraphs)}
+
+    # Then later in your code...
+    for i, paragraph_bow in enumerate(paragraph_bow):
+        sims = index[model[paragraph_bow]]
         sorted_sims = sorted(enumerate(sims), key=lambda item: -item[1])
-        key_term = get_subkey(new_key_terms, key_terms_list[i])
 
-        for doc_position, doc_score in sorted_sims:
-            if doc_position < len(paragraphs):
-                paragraph = paragraphs[doc_position]
-                if paragraph not in results or doc_score > results[paragraph]['score']:
-                    results[paragraph] = {'key_term': key_term, 'score': doc_score,'index': doc_position}
+        for kt_position, kt_score in sorted_sims:
+            if kt_position >= len(paragraphs):  # we only consider the key terms, which are after the paragraphs in the sims list
+                key_term = get_subkey(new_key_terms, key_terms_list[kt_position - len(paragraphs)])  # adjust the index for key_terms_list
+                paragraph = f"{paragraphs[i]}_{i}"
+                if kt_score > results[paragraph]['score']:
+                    results[paragraph] = {'key_term': key_term, 'score': kt_score,'index': i}
 
+
+
+    print(f"Length of results: {len(results)}")
     return results
 
 
@@ -308,6 +334,8 @@ def main():
     
     # print(f"length of pv_clean with minimum {MIN_LENGTH} and maximum {MAX_LENGTH} chars: {len(pv_clean)}")
 
+    print(f"Length of paragraphs: {len(pv_clean)}")
+    
     
     new_key_terms = combine_subkey_values(key_terms)
         
@@ -316,7 +344,8 @@ def main():
 
     key_terms_sample = [value for key, subdict in new_key_terms.items() for subkey, value in subdict.items()]
 
-    pv_paragraphs = pv_intro_clean + pv_rdc_clean + pv_ddp_clean
+    # pv_paragraphs = pv_intro_clean + pv_rdc_clean + pv_ddp_clean
+    pv_paragraphs = pv_clean.copy()
     
     print("Embedding...")
     embeddings1 = model.encode(key_terms_sample, convert_to_tensor=True)
