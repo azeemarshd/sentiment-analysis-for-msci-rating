@@ -235,11 +235,23 @@ def get_results_dataframe_lsi(results_dict):
     df = df.sort_values(by='index')
     df = df.reset_index(drop=True)
     
-    for kt in df['key_term'].unique():
-        top_level_key = find_top_level_key(key_terms, kt)
-        if top_level_key is not None:
-            new_kt = kt + " [" + top_level_key + "]"
-            df.loc[df['key_term'] == kt, 'key_term'] = new_kt
+    # for kts in df['key_term']:
+    #     for kt in kts:
+    #         top_level_key = find_top_level_key(key_terms, kt)
+    #         if top_level_key is not None:
+    #             new_kt = kt + " [" + top_level_key + "]"
+    #             df.loc[df['key_term'] == kt, 'key_term'] = new_kt
+    
+    for i, row in df.iterrows():
+        updated_key_terms = []
+        for kt in row['key_term']:
+            top_level_key = find_top_level_key(key_terms, kt)
+            if top_level_key is not None:
+                new_kt = kt + " [" + top_level_key + "]"
+            else:
+                new_kt = kt
+            updated_key_terms.append(new_kt)
+        df.at[i, 'key_term'] = updated_key_terms
 
     return df
 
@@ -270,10 +282,7 @@ def compute_baseline(pdf_file_path):
 
     paragraph_bow = [dictionary.doc2bow(word_tokenize(p)) for p in paragraphs]
     
-    print(f"Length of paragraph_bow: {len(paragraph_bow)}")
-    
-    
-    
+   
     key_term_bow = [dictionary.doc2bow(word_tokenize(kt)) for kt in key_terms_list]
 
     model = models.LsiModel(paragraph_bow + key_term_bow, id2word=dictionary, num_topics=100)
@@ -291,20 +300,43 @@ def compute_baseline(pdf_file_path):
     #             if paragraph not in results or doc_score > results[paragraph]['score']:
     #                 results[paragraph] = {'key_term': key_term, 'score': doc_score,'index': doc_position}
     
-   # Initialize the results dictionary with all paragraphs
-    results = {f"{paragraph}_{i}": {'key_term': None, 'score': 0, 'index': i} for i, paragraph in enumerate(paragraphs)}
+    # # Initialize the results dictionary with all paragraphs
+    # results = {f"{paragraph}_{i}": {'key_term': None, 'score': 0, 'index': i} for i, paragraph in enumerate(paragraphs)}
+    
+    # # Then later in your code...
+    # for i, paragraph_bow in enumerate(paragraph_bow):
+    #     sims = index[model[paragraph_bow]]
+    #     sorted_sims = sorted(enumerate(sims), key=lambda item: -item[1])
 
-    # Then later in your code...
+    #     for kt_position, kt_score in sorted_sims:
+    #         if kt_position >= len(paragraphs):  # we only consider the key terms, which are after the paragraphs in the sims list
+    #             key_term = get_subkey(new_key_terms, key_terms_list[kt_position - len(paragraphs)])  # adjust the index for key_terms_list
+    #             paragraph = f"{paragraphs[i]}_{i}"
+    #             if kt_score > results[paragraph]['score']:
+    #                 results[paragraph] = {'key_term': key_term, 'score': kt_score,'index': i}
+                    
+    
+    # Initialize the results dictionary with all paragraphs
+    results = {f"{paragraph}_{i}": {'key_term': [], 'score': [], 'index': i} for i, paragraph in enumerate(paragraphs)}
+    
     for i, paragraph_bow in enumerate(paragraph_bow):
         sims = index[model[paragraph_bow]]
         sorted_sims = sorted(enumerate(sims), key=lambda item: -item[1])
+
+        added_key_terms = 0  # Counter for added key terms to ensure only top three are added
 
         for kt_position, kt_score in sorted_sims:
             if kt_position >= len(paragraphs):  # we only consider the key terms, which are after the paragraphs in the sims list
                 key_term = get_subkey(new_key_terms, key_terms_list[kt_position - len(paragraphs)])  # adjust the index for key_terms_list
                 paragraph = f"{paragraphs[i]}_{i}"
-                if kt_score > results[paragraph]['score']:
-                    results[paragraph] = {'key_term': key_term, 'score': kt_score,'index': i}
+                
+                if key_term not in results[paragraph]['key_term']:  # only add if this key term isn't already added
+                    results[paragraph]['key_term'].append(key_term)
+                    results[paragraph]['score'].append(kt_score)
+                    added_key_terms += 1
+                    
+                if added_key_terms == 3:  # break after adding top three key terms
+                    break
 
 
 
@@ -373,34 +405,69 @@ def main():
                                                           'max_score': res_max[i]['max_score'],
                                                           'paragraphs': []} for i, key_term in enumerate(key_terms_sample)}
     
-    
+
     individual_para_scores = []
     print("Classifying paragraphs...")
     for j in range(len(pv_paragraphs)):
-        max_index = cosine_scores[:, j].argmax()
-        max_score = cosine_scores[max_index][j].item()
-        key_term = key_terms_sample[max_index]
-        paragraph = pv_paragraphs[j]
-        short_key_term = get_subkey(new_key_terms, key_term)
+        # Get the indices of the top 3 maximum cosine similarity values
+        top3_indices = cosine_scores[:, j].argsort(descending=True)[:3]
+        top3_scores = cosine_scores[top3_indices, j]
+        top3_key_terms = [key_terms_sample[idx] for idx in top3_indices]
 
-        # Add the paragraph to the list of paragraphs for the key term
-        results_dict[short_key_term]['paragraphs'].append(paragraph)
-        
-        individual_para_scores.append({'paragraph': paragraph,
-                                       'score': max_score,
-                                       'key_term': short_key_term})
-        
-        df = pd.DataFrame(individual_para_scores)
-        
-        for kt in df['key_term'].unique():
+        paragraph = pv_paragraphs[j]
+        top3_short_key_terms = [get_subkey(new_key_terms, kt) for kt in top3_key_terms]
+
+        # Update the results dictionary with the top 3 key terms and their scores
+        for idx, key_term in enumerate(top3_short_key_terms):
+            if key_term not in results_dict:
+                results_dict[key_term] = {'avg_score': 0, 'max_score': 0, 'paragraphs': []}
+            results_dict[key_term]['paragraphs'].append({'paragraph': paragraph, 'score': top3_scores[idx].item()})
+
+        # Store the paragraph, its top 3 scores, and their corresponding key terms in individual_para_scores
+        individual_para_scores.append({
+            'paragraph': paragraph,
+            'scores': [s.item() for s in top3_scores],
+            'key_terms': top3_short_key_terms
+        })
+
+    df = pd.DataFrame(individual_para_scores)
+
+    for row in df.iterrows():
+        for kt in row[1]['key_terms']:
             top_level_key = find_top_level_key(key_terms, kt)
             if top_level_key is not None:
                 new_kt = kt + " [" + top_level_key + "]"
-                df.loc[df['key_term'] == kt, 'key_term'] = new_kt
+                idx = row[1]['key_terms'].index(kt)
+                row[1]['key_terms'][idx] = new_kt
+
+    return results_dict, df
+    
+    
+    # for j in range(len(pv_paragraphs)):
+    #     max_index = cosine_scores[:, j].argmax()
+    #     max_score = cosine_scores[max_index][j].item()
+    #     key_term = key_terms_sample[max_index]
+    #     paragraph = pv_paragraphs[j]
+    #     short_key_term = get_subkey(new_key_terms, key_term)
+
+    #     # Add the paragraph to the list of paragraphs for the key term
+    #     results_dict[short_key_term]['paragraphs'].append(paragraph)
+        
+    #     individual_para_scores.append({'paragraph': paragraph,
+    #                                    'score': max_score,
+    #                                    'key_term': short_key_term})
+        
+    #     df = pd.DataFrame(individual_para_scores)
+        
+    #     for kt in df['key_term'].unique():
+    #         top_level_key = find_top_level_key(key_terms, kt)
+    #         if top_level_key is not None:
+    #             new_kt = kt + " [" + top_level_key + "]"
+    #             df.loc[df['key_term'] == kt, 'key_term'] = new_kt
         
  
-    # return results_dict,pd.DataFrame(individual_para_scores).sort_values(by="score", ascending=False)
-    return results_dict,df
+    # # return results_dict,pd.DataFrame(individual_para_scores).sort_values(by="score", ascending=False)
+    # return results_dict,df
 
 
 
