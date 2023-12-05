@@ -1,0 +1,1 @@
+translate each title and add it before each summary
