@@ -71,3 +71,26 @@ for batch in tqdm(data_loader, desc="Making Predictions"):
         batch_predictions = torch.argmax(outputs.logits, dim=-1)
         predictions.extend(batch_predictions.cpu().numpy())
 
+test_labels_tensor = torch.tensor(test_labels)
+
+# Calculate accuracy
+accuracy = accuracy_score(test_labels_tensor, predictions)
+
+# Convert predictions and test labels to a pandas DataFrame
+results_df = pd.DataFrame({
+    'Actual Label': test_labels,
+    'Predicted Label': predictions
+})
+
+results_df['Model'] = 'Camembert'
+results_df['Timestamp'] = pd.Timestamp.now()
+
+# Save the accuracy and the DataFrame to CSV
+results_df.to_csv('~/thesis/results/cbb_prediction_results.csv', index=False)
+
+# Optionally, save accuracy to a text file or as part of the CSV
+with open('~/thesis/results/cbb_accuracy.txt', 'w') as file:
+    file.write(f'Accuracy: {accuracy}')
+
+# Print out the accuracy
+print(f'Accuracy: {accuracy}')

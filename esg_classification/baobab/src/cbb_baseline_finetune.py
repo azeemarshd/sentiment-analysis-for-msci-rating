@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 from tqdm.notebook import tqdm
 from sklearn.model_selection import train_test_split
 
+import time
+
 import string
 from spacy.lang.fr.stop_words import STOP_WORDS as fr_stop
 
@@ -36,7 +38,7 @@ camembert.roberta.embeddings
 
 
 df = pd.read_csv('~/thesis/data/esg_fr_classification.csv', encoding='utf-8', sep=',')
-df = df.sample(frac=1, random_state=42).reset_index(drop=True)
+df = df.sample(frac=0.1, random_state=42).reset_index(drop=True)
 
 # rename text_fr column to text and esg_category to label
 df = df.rename(columns={'text_fr': 'text'})
@@ -98,14 +100,16 @@ print("\n ---------------------------------\n ")
 num_labels = len(df_train["label"].unique())
 train_dataloader = DataLoader(
     train_dataset, 
-    batch_size=5, 
-    shuffle=True, 
+    batch_size=10, 
+    shuffle=True,
+    num_workers=5,
     collate_fn=functools.partial(tokenize_batch, tokenizer=tokenizer)
 )
 val_dataloader = DataLoader(
     val_dataset, 
-    batch_size=5, 
+    batch_size=10, 
     shuffle=False, 
+    num_workers=5,
     collate_fn=functools.partial(tokenize_batch, tokenizer=tokenizer)
 )
 
@@ -121,7 +125,7 @@ class LightningModel(pl.LightningModule):
             )
             self.model = AutoModelForSequenceClassification.from_config(config)
         else:
-            # Cette méthode permet de télécharger le bon modèle pré-entraîné directement depuis le Hub de HuggingFace sur lequel sont stockés de nombreux modèles
+            # Cette méthode permet de télécharger le bon modèle pré-entraîné directement depuis HGF
             self.model = AutoModelForSequenceClassification.from_pretrained(
                 model_name, num_labels=num_labels
             )
@@ -176,15 +180,16 @@ class LightningModel(pl.LightningModule):
         )
         
         
-
-
 lightning_model = LightningModel("camembert-base", num_labels, lr=3e-5, weight_decay=0.)
 
+
+# time start
+start = time.time()
 
 model_checkpoint = pl.callbacks.ModelCheckpoint(monitor="valid/acc", mode="max")
 
 camembert_trainer = pl.Trainer(
-    max_epochs=5,
+    max_epochs=10,
     callbacks=[
         pl.callbacks.EarlyStopping(monitor="valid/acc", patience=4, mode="max"),
         model_checkpoint,
@@ -200,10 +205,63 @@ model_checkpoint_callback = str(model_checkpoint)
 
 callbacks_str = f"Early Stopping Callback:\n{early_stopping_callback}\n\nModel Checkpoint Callback:\n{model_checkpoint_callback}"
 
+# end time
+end = time.time()
+total_time = end - start
+print(f"Training took {total_time} seconds")
+
 with open('callbacks.txt', 'w') as file:
     file.write(callbacks_str)
+    
+lightning_model.model.save_pretrained("../models/camembert-base-esg-classification.pt")
+
 
 print("Callbacks saved to 'callbacks.txt'")
 
 
-    
+
+
+# ----------------------------
+# ----- T E S T I N G --------
+# ----------------------------
+# ----------------------------
+
+
+
+# Ensure the model is in evaluation mode
+lightning_model.model.eval()
+
+# Prepare the DataLoader for the test dataset
+test_dataloader = DataLoader(
+    test_dataset, 
+    batch_size=10, 
+    shuffle=False, 
+    num_workers=5,
+    collate_fn=functools.partial(tokenize_batch, tokenizer=tokenizer)
+)
+
+# Initialize lists to store predictions and true labels
+test_preds = []
+test_labels = []
+
+# Disable gradient calculations for evaluation
+with torch.no_grad():
+    for batch in tqdm(test_dataloader):
+        # Make predictions
+        outputs = lightning_model.model(
+            input_ids=batch['input_ids'], 
+            attention_mask=batch['attention_mask']
+        )
+
+        # Get the predictions and true labels
+        logits = outputs.logits
+        predictions = torch.argmax(logits, dim=-1)
+        test_preds.extend(predictions.tolist())
+        test_labels.extend(batch['labels'].tolist())
+
+# Optionally, calculate and print out metrics like accuracy or F1 score
+accuracy = sum(1 for x, y in zip(test_preds, test_labels) if x == y) / len(test_labels)
+f1 = f1_score(test_labels, test_preds, average='macro')
+
+print(f"Test Accuracy: {accuracy:.4f}")
+print(f"Test F1 Score: {f1:.4f}")
