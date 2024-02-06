@@ -18,6 +18,8 @@ from transformers import (AutoConfig, AutoModelForSequenceClassification,
                           AutoTokenizer, CamembertForMaskedLM)
 
 from datasets import Dataset, load_dataset
+from torch.optim.lr_scheduler import StepLR
+
 
 DATASET_PATH = './data/esg_fr_classification.csv'
 OUTPUT_MODEL_PATH = './models/pytorch_lightning/cb-pl_test.pt'
@@ -175,12 +177,16 @@ class LightningModel(pl.LightningModule):
         return torch.max(out.logits, -1).indices
 
     def configure_optimizers(self):
-        return torch.optim.AdamW(
-            self.model.parameters(), lr=self.lr, weight_decay=self.weight_decay
-        )
+        optimizer = torch.optim.AdamW(self.model.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        scheduler = StepLR(optimizer, step_size=2, gamma=0.1)
+
+        return {
+            "optimizer": optimizer,
+            "lr_scheduler": {"scheduler": scheduler, "interval": "epoch"}, 
+            "gradient_clip_val": 1.0,  
+        }
         
-        
-lightning_model = LightningModel("camembert-base", num_labels, lr=0.00003, weight_decay=0.)
+lightning_model = LightningModel("camembert-base", num_labels, lr=0.00003, weight_decay=0.00003)
 
 
 # time start
@@ -194,6 +200,7 @@ logger = TensorBoardLogger(TB_LOGS_PATH, name="pl_model")
 camembert_trainer = pl.Trainer(
     logger=logger,
     max_epochs=2,
+    accumulate_grad_batches=3,
     callbacks=[
         pl.callbacks.EarlyStopping(monitor="valid/acc", patience=4, mode="max"),
         model_checkpoint,

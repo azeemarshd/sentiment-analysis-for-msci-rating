@@ -5,7 +5,8 @@ setup(
     version='0.1.0',
     author='Muhammad Azeem ARSHAD',
     author_email='Muhammad.arshad.2@etu.unige.ch',
-    packages=find_packages(),
+    packages=find_packages(where='esg_classification'),
+    package_dir={'': 'esg_classification'},
     install_requires=[
         'pandas',
         'numpy',
