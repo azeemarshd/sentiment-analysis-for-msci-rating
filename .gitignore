@@ -169,4 +169,4 @@ models/
 data/*
 
 # exception to the rule
-!data/.gitkeep 
+!./esg_rating/src/data/.gitkeep 
