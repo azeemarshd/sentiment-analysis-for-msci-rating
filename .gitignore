@@ -165,8 +165,4 @@ Tensorboard_logs/
 models/
 *.csv
 
-# exclude everything
-data/*
-
-# exception to the rule
-!./esg_rating/src/data/.gitkeep 
+esg_rating/src/data/
