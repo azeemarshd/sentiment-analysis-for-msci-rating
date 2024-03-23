@@ -1,0 +1,5 @@
+Early Stopping Callback:
+<pytorch_lightning.callbacks.early_stopping.EarlyStopping object at 0x1534f4a899d0>
+
+Model Checkpoint Callback:
+<pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x153517b7db90>
