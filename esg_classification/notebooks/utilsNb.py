@@ -22,6 +22,8 @@ from transformers import (AutoConfig, AutoModel,
                           CamembertModel)
 
 from datasets import Dataset
+from newspaper import nlp as nnlp
+
 
 nlp = spacy.load('fr_core_news_md')
 
@@ -263,21 +265,38 @@ def print_dict(d):
     return "\n".join(f"{key}: {value}" for key, value in d.items())
 
 
-def predict_df(model, tokenizer, df, tokenizer_max_len=1024):
-    df_res = df.copy()
-    df_res['predicted_class'] = None
-    df_res['probability'] = None
-    df_res['probas_dict'] = None
+def predict_df(df, model, tokenizer, tokenizer_max_len=1024, return_prediction_only = True, column_name = 'prediction'):
     
-    for i, row in tqdm(df_res.iterrows(), total=len(df_res)):
-        cleaned_text = cleanse_french_text(row['text'])
-        predicted_class, probability,probas_dict = predict_single_input(model, tokenizer, cleaned_text,tokenizer_max_len = tokenizer_max_len)
-        df_res.at[i, 'predicted_class'] = predicted_class
-        df_res.at[i, 'probability'] = probability
-        df_res.at[i, 'probas_dict'] = print_dict(probas_dict)
-
+    df_res = df.copy()
+    
+    if return_prediction_only:
+        df_res[f"{column_name}"] = None
+        for i, row in tqdm(df_res.iterrows(), total=len(df_res)):
+            cleaned_text = cleanse_french_text(row['text'])
+            predicted_class, proba ,_ = predict_single_input(model, tokenizer, cleaned_text,tokenizer_max_len = tokenizer_max_len)
+            df_res.at[i, f"{column_name}"] = predicted_class
+            
+    else:
+        df_res['predicted_class'] = None
+        df_res['probability'] = None
+        df_res['probas_dict'] = None
+        for i, row in tqdm(df_res.iterrows(), total=len(df_res)):
+            cleaned_text = cleanse_french_text(row['text'])
+            predicted_class, probability,probas_dict = predict_single_input(model, tokenizer, cleaned_text,tokenizer_max_len = tokenizer_max_len)
+            df_res.at[i, 'predicted_class'] = predicted_class
+            df_res.at[i, 'probability'] = probability
+            df_res.at[i, 'probas_dict'] = print_dict(probas_dict)
+    
     return df_res
 
+    
+
+
+
+
+
+
+    
 
 # ------------------------------------------------------------
 # ------------------ PV PARSER CLASS -------------------------
@@ -324,27 +343,29 @@ class PvParser:
         return matches
     
     def split_text(self, text, max_length=1024):
-        # Split the text into sentences
-        sentences = re.split(r'(?<=[.!?]) +', text)
+        
         chunks = []
-        current_chunk = ""
-
-        for sentence in sentences:
-            # Check if adding the next sentence exceeds the max_length
-            if len(current_chunk) + len(sentence) <= max_length:
-                current_chunk += sentence + " "
+        
+        paragraphs = text.split('\n\n\n')
+        
+        for para in paragraphs:
+            if len(para) < max_length:
+                chunks.append(para)
+                     
             else:
-                # If the current chunk is not empty, add it to the chunks list
-                if current_chunk:
-                    chunks.append(current_chunk.strip())
-                current_chunk = sentence + " "  # Start a new chunk
-
-        # Add the last chunk if it's not empty
-        if current_chunk:
-            chunks.append(current_chunk.strip())
-
+                sentences = re.split(r'(?<=[.!?]) +', para)
+                current_chunk = ""
+                for sentence in sentences:
+                    # Check if adding the next sentence exceeds the max_length
+                    if len(current_chunk) + len(sentence) <= max_length:
+                        current_chunk += sentence + " "
+                    else:
+                        # If the current chunk is not empty, add it to the chunks list
+                        if current_chunk:
+                            chunks.append(current_chunk.strip())
+                        current_chunk = sentence + " "  # Start a new chunk
         return chunks
-    
+        
     def pv_to_df(self, chunk_size=None):
         rows = []
         
@@ -352,7 +373,7 @@ class PvParser:
             rows = []
             for i, section_title in enumerate(self.sections_list):
                 text = self.extract_section(i + 1)
-                # Each section becomes a row with 'Section Title' and 'Text' as columns
+                # Each section becomes a row with "section number" and 'text' as columns
                 section_number = section_title.split('.')[0]
                 row = {'section_number': section_number, 'text': text}
                 rows.append(row)

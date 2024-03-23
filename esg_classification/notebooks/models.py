@@ -117,7 +117,7 @@ class ModelCBL(nn.Module):
 # ------------------------ MODEL CBL - LONG ------------------------------
 # ------------------------------------------------------------------------
 class ModelCBLlong(nn.Module):
-  def __init__(self,checkpoint,num_labels, id2label, max_length = 512): 
+  def __init__(self,checkpoint,num_labels, id2label, max_length = 1024): 
     super(ModelCBLlong,self).__init__() 
     self.num_labels = num_labels 
     self.id2label = id2label
