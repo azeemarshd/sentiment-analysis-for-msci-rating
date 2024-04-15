@@ -5,11 +5,13 @@ import string
 
 import evaluate
 import matplotlib.pyplot as plt
+import models
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import spacy
 import torch
+from newspaper import nlp as nnlp
 from pdfminer.high_level import extract_text
 from sklearn.metrics import (accuracy_score, confusion_matrix, f1_score,
                              precision_score, recall_score)
@@ -22,8 +24,6 @@ from transformers import (AutoConfig, AutoModel,
                           CamembertModel)
 
 from datasets import Dataset
-from newspaper import nlp as nnlp
-
 
 nlp = spacy.load('fr_core_news_md')
 
@@ -37,13 +37,8 @@ ID_TO_LABEL = {
 LABEL_TO_ID = {v: k for k, v in ID_TO_LABEL.items()}
 
 def load_model(model_path,model_config_path, eval_mode = True):
-    # Load the configuration from the JSON file
     config = AutoConfig.from_pretrained(model_config_path)
-
-    # Create the model instance
     model = AutoModelForSequenceClassification.from_config(config)
-
-    # Load the fine-tuned model weights
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
 
     if eval_mode:
@@ -51,15 +46,82 @@ def load_model(model_path,model_config_path, eval_mode = True):
 
     return model
 
-def load_sd_model(state_dict_path, model_class, checkpoint, num_labels, id2label):
-    """ 
-    load state_dict model for evaluation purposes
+# def load_sd_model(state_dict_path, model_class, checkpoint, num_labels, id2label):
+#     """ 
+#     load state_dict model for evaluation purposes
+#     """
+#     model = model_class(checkpoint=checkpoint, num_labels=num_labels, id2label=id2label)
+#     model.load_state_dict(torch.load(state_dict_path, map_location=torch.device('cpu')))
+#     model.eval()
+#     print('\nModel loaded for evaluation')
+#     return model
+
+def load_sd_model(model_name, model_sd_path):
     """
-    model = model_class(checkpoint=checkpoint, num_labels=num_labels, id2label=id2label)
-    model.load_state_dict(torch.load(state_dict_path, map_location=torch.device('cpu')))
-    model.eval()
-    print('\nModel loaded for evaluation')
-    return model
+    Load a pre-trained sentiment analysis model and tokenizer.
+
+    Args:
+        - model_name (str): The name of the model to load. Supported model names are:
+            - "cb-512": Camembert-base model with a maximum sequence length of 512.
+            - "cb-1024": Camembert-base model with a maximum sequence length of 1024.
+            - "cbl-512": Camembert-large model with a maximum sequence length of 512.
+            - "cbl-1024": Camembert-large model with a maximum sequence length of 1024.
+        - model_sd_path (str): The file path to the saved model state dictionary.
+
+    Returns:
+        tuple: A tuple containing the loaded model and tokenizer.
+
+    Raises:
+        KeyError: If an unsupported model name is provided.
+
+    Example:
+        model, tokenizer = load_sd_model("cb-512", "/path/to/model_state_dict.pt")
+    """
+    
+    ID_TO_LABEL = {
+        0: 'non-esg',
+        1: 'environnemental',
+        2: 'social',
+        3: 'gouvernance'
+    }
+    LABEL_TO_ID = {v: k for k, v in ID_TO_LABEL.items()}
+    NUM_LABELS = len(ID_TO_LABEL)
+
+    models_meta_inf = {
+        "cb-512": {
+            "checkpoint": "camembert-base",
+            "model_class": models.ModelCB,
+            "max_length": 512
+        },
+        "cb-1024": {
+            "checkpoint": "camembert-base",
+            "model_class": models.ModelCBLong,
+            "max_length": 1024
+        },
+        "cbl-512": {
+            "checkpoint": "camembert/camembert-large",
+            "model_class": models.ModelCBL,
+            "max_length": 512
+        },
+        "cbl-1024": {
+            "checkpoint": "camembert/camembert-large",
+            "model_class": models.ModelCBLlong,
+            "max_length": 1024
+        }
+    }
+    
+    checkpoint = models_meta_inf[model_name]["checkpoint"]
+    model_class = models_meta_inf[model_name]["model_class"]
+    
+    TOKENIZER = AutoTokenizer.from_pretrained(checkpoint,)
+    model = model_class(checkpoint, NUM_LABELS, id2label=ID_TO_LABEL)
+    model.load_state_dict(torch.load(model_sd_path, map_location=torch.device('cpu')))
+    
+    print(f"Model {model_name} loaded.")
+    
+    return model, TOKENIZER
+
+
 
 def get_preds(model, tokenizer, sentence):
     tokenized_sentence = tokenizer(sentence, return_tensors="pt")
@@ -138,6 +200,7 @@ def plot_confusion_matrix(true_labels, predicted_labels, labels,save_fig_path = 
     plt.title('Confusion Matrix')
     if save_fig_path:
         plt.savefig(save_fig_path)
+    plt.show()
     
 
 
@@ -291,7 +354,14 @@ def predict_df(df, model, tokenizer, tokenizer_max_len=1024, return_prediction_o
 
     
 
-
+def print_confusion_matrix(y_true, y_pred, title = " confusion matrix"):
+    conf_matrix = confusion_matrix(y_true, y_pred, labels = ["non-esg", "environnemental", "social", "gouvernance"], normalize = "true")
+    conf_matrix = pd.DataFrame(conf_matrix, index = ["non-esg", "environnemental", "social", "gouvernance"], columns = ["non-esg", "environnemental", "social", "gouvernance"])
+    plt.figure(figsize=(10,7))
+    sns.heatmap(conf_matrix, annot=True, cmap="YlGnBu")
+    plt.xlabel("Predicted labels"); plt.ylabel("True labels")
+    plt.title(title)
+    plt.show()
 
 
 

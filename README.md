@@ -1,13 +1,9 @@
-# Système de notation automatique de durabilité pour des communes suisses
+# Automatic Sustainability Rating System for Swiss Municipalities
 
 
 ## Introduction
-Ce projet explore un système de notation de durabilité de quelques communes suisses en
-analysant les textes disponibles comme les PV des séances de Conseils communaux. Il
-s’agira de développer un modèle et de collecter suffisamment de données afin de pouvoir
-automatiquement assigner des notes le long des trois piliers (ESG). Il faudra établir un
-processus pour collecter des PV et calculer des notes par communes et un classement de
-ces dernières.
+This project explores a sustainability rating system for several Swiss municipalities by analyzing available texts such as the minutes of municipal council meetings. It involves developing a model and collecting enough data to automatically assign ratings across the three pillars (ESG). A process will be established to collect the minutes and calculate ratings for each municipality and a ranking of them. 
+The project consists first of classifying each set of minutes according to the ESG pillars, and then assigning a rating for each pillar.
 
 ## Installation and setup
 
