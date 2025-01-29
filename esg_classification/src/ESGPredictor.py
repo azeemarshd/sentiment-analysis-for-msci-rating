@@ -1,11 +1,12 @@
 from notebooks import utilsNb
-from utils import models
+# import models
+
+from src import models
 from transformers import AutoTokenizer
 import transformers
 import torch
 from tqdm import tqdm
 import pandas as pd
-
 
 
 def load_sd_model(model_name, model_sd_path):
@@ -76,15 +77,20 @@ def load_sd_model(model_name, model_sd_path):
 
 
 
-# class that combines the three models cb, cbl and cbl-1024
+# class that combines the four models cb, cb-1024, cbl and cbl-1024
 class ESGPredictor:
-    def __init__(self, cb_model_path, cbl_model_path, cbl_1024_model_path):
+    def __init__(self, cb_model_path,cb_1024_model_path, cbl_model_path, cbl_1024_model_path):
         self.cb_model, self.tokenizer_base = load_sd_model("cb-512", cb_model_path)
+        self.cb_1024_model, _ = load_sd_model("cb-1024", cb_1024_model_path)
         self.cbl_model, self.tokenizer_large = load_sd_model("cbl-512", cbl_model_path)
         self.cbl_1024_model, _ = load_sd_model("cbl-1024", cbl_1024_model_path)
-        self.weights = [[0.2, 0.1,0.7,0.1], # cbl
-                        [0.7,0.1,0.1,0.8], # cbl-1024
-                        [0.1,0.8,0.2,0.1]] # cb
+        # self.weights = [[0.2, 0.1,0.7,0.1], # cbl
+        #                 [0.7,0.1,0.1,0.8], # cbl-1024
+        #                 [0.1,0.8,0.2,0.1]] # cb
+        self.weights = [[0.2636232 , 0.24361493, 0.28944688, 0.24629182],
+                        [0.23410941, 0.25933202, 0.23502097, 0.23456364],
+                        [0.25657445, 0.25933202, 0.248515  , 0.31390135],
+                        [0.24569294, 0.23772102, 0.22701716, 0.20524319]]
         self.ID_TO_LABEL = {
             0: 'non-esg',
             1: 'environnemental',
@@ -117,6 +123,7 @@ class ESGPredictor:
     def predict(self, input_text):
         # Predict using the three models
         cb_pred = self.predict_single_input(input_text, self.cb_model, self.tokenizer_base, tokenizer_max_len=512)
+        cb_1024_pred = self.predict_single_input(input_text, self.cb_model, self.tokenizer_base, tokenizer_max_len=1024)
         cbl_pred = self.predict_single_input(input_text, self.cbl_model, self.tokenizer_large, tokenizer_max_len=512)
         cbl_1024_pred = self.predict_single_input(input_text, self.cbl_1024_model, self.tokenizer_large, tokenizer_max_len=1024)
 
@@ -127,9 +134,10 @@ class ESGPredictor:
         "gouvernance": 0
         }
         
-        pred_dict[cbl_pred] += self.weights[0][list(pred_dict.keys()).index(cbl_pred)]
-        pred_dict[cbl_1024_pred] += self.weights[1][list(pred_dict.keys()).index(cbl_1024_pred)]
-        pred_dict[cb_pred] += self.weights[2][list(pred_dict.keys()).index(cb_pred)]
+        pred_dict[cb_pred] += self.weights[0][list(pred_dict.keys()).index(cb_pred)]
+        pred_dict[cb_1024_pred] += self.weights[1][list(pred_dict.keys()).index(cb_1024_pred)]
+        pred_dict[cbl_pred] += self.weights[2][list(pred_dict.keys()).index(cbl_pred)]
+        pred_dict[cbl_1024_pred] += self.weights[3][list(pred_dict.keys()).index(cbl_1024_pred)]
         
         best_pred = max(pred_dict, key=pred_dict.get)
         

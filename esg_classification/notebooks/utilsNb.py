@@ -25,6 +25,7 @@ from transformers import (AutoConfig, AutoModel,
 
 from datasets import Dataset
 
+
 nlp = spacy.load('fr_core_news_md')
 
 ID_TO_LABEL = {
@@ -56,7 +57,7 @@ def load_model(model_path,model_config_path, eval_mode = True):
 #     print('\nModel loaded for evaluation')
 #     return model
 
-def load_sd_model(model_name, model_sd_path):
+def load_sd_model(model_name, model_sd_path = " ", load_finetuned = True):
     """
     Load a pre-trained sentiment analysis model and tokenizer.
 
@@ -89,12 +90,12 @@ def load_sd_model(model_name, model_sd_path):
 
     models_meta_inf = {
         "cb-512": {
-            "checkpoint": "camembert-base",
+            "checkpoint": "almanach/camembert-base",
             "model_class": models.ModelCB,
             "max_length": 512
         },
         "cb-1024": {
-            "checkpoint": "camembert-base",
+            "checkpoint": "almanach/camembert-base",
             "model_class": models.ModelCBLong,
             "max_length": 1024
         },
@@ -113,9 +114,19 @@ def load_sd_model(model_name, model_sd_path):
     checkpoint = models_meta_inf[model_name]["checkpoint"]
     model_class = models_meta_inf[model_name]["model_class"]
     
-    TOKENIZER = AutoTokenizer.from_pretrained(checkpoint,)
-    model = model_class(checkpoint, NUM_LABELS, id2label=ID_TO_LABEL)
-    model.load_state_dict(torch.load(model_sd_path, map_location=torch.device('cpu')))
+    TOKENIZER = AutoTokenizer.from_pretrained("camembert/camembert-large")
+
+   
+    
+    if load_finetuned:
+    
+        model = model_class(checkpoint, NUM_LABELS, id2label=ID_TO_LABEL)
+        model.load_state_dict(torch.load(model_sd_path, map_location=torch.device('cpu')))
+    
+    else:
+        # load online model directly
+        model = AutoModelForSequenceClassification.from_pretrained(checkpoint)
+        
     
     print(f"Model {model_name} loaded.")
     
@@ -303,7 +314,7 @@ def split_esg_dataset(dataset_path, datasize_frac = 1, train_size = 0.6, test_si
 
 # TORCH MODEL UTIL FUNCTIONS
 
-def predict_single_input(model, tokenizer, input_text, tokenizer_max_len=1024, device='cpu', decimal_places=3):
+def predict_single_input(model, tokenizer, input_text, tokenizer_max_len=1024, device='cpu', decimal_places=3, pbar = None):
     # Tokenize the input text
     inputs = tokenizer(input_text, return_tensors="pt", truncation=True, max_length=tokenizer_max_len)
     inputs = {k: v.to(device) for k, v in inputs.items()}
@@ -320,12 +331,17 @@ def predict_single_input(model, tokenizer, input_text, tokenizer_max_len=1024, d
     probas_dict = {ID_TO_LABEL[idx]: round(prob.item(), decimal_places) for idx, prob in enumerate(probabilities[0])}
     predicted_class = max(probas_dict, key=probas_dict.get)
     predicted_class_proba = probas_dict[predicted_class]
+    
+    if pbar is not None:
+        pbar.update(1)
 
     return predicted_class, predicted_class_proba, probas_dict
 
 
+
 def print_dict(d):
     return "\n".join(f"{key}: {value}" for key, value in d.items())
+
 
 
 def predict_df(df, model, tokenizer, tokenizer_max_len=1024, return_prediction_only = True, column_name = 'prediction'):
@@ -342,13 +358,13 @@ def predict_df(df, model, tokenizer, tokenizer_max_len=1024, return_prediction_o
     else:
         df_res['predicted_class'] = None
         df_res['probability'] = None
-        df_res['probas_dict'] = None
+        # df_res['probas_dict'] = None
         for i, row in tqdm(df_res.iterrows(), total=len(df_res)):
             cleaned_text = cleanse_french_text(row['text'])
             predicted_class, probability,probas_dict = predict_single_input(model, tokenizer, cleaned_text,tokenizer_max_len = tokenizer_max_len)
             df_res.at[i, 'predicted_class'] = predicted_class
             df_res.at[i, 'probability'] = probability
-            df_res.at[i, 'probas_dict'] = print_dict(probas_dict)
+            # df_res.at[i, 'probas_dict'] = print_dict(probas_dict)
     
     return df_res
 
