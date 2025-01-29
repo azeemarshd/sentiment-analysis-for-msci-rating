@@ -39,10 +39,12 @@ class ESGSentimentPredictor:
         """
         label_map = {'positive': 5, 'neutral': 3, 'negative': 1}
         if label in label_map:
-            return label_map[label] * score  
+            # return label_map[label] * score  
+            return label_map[label] 
         else:
             star_rating = int(label.split()[0])
-            return star_rating * score  
+            # return star_rating * score  
+            return star_rating   
 
     def aggregate_predictions(self,predictions):
         """
@@ -118,7 +120,13 @@ def predict_dir(input_dir):
     for filename in tqdm(os.listdir(input_dir), desc="Predicting files ...", total=len(os.listdir(input_dir))):
         file_path = os.path.join(input_dir, filename)  # Use os.path.join for better path handling
         if os.path.isfile(file_path):  # Check if it's a file
-            df = pd.read_csv(input_dir + filename, encoding='utf-16', sep=',')
+            # df = pd.read_csv(input_dir + filename, encoding='utf-16', sep=',')
+            
+            # try opening the file with utf-16 encoding, if not try utf-8
+            try:
+                df = pd.read_csv(input_dir + filename, encoding='utf-16', sep=',')
+            except:
+                df = pd.read_csv(input_dir + filename, encoding='utf-8', sep=',')
             
             df = sentiment_predictor.predict_df(df)
             

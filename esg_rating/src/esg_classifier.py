@@ -7,6 +7,7 @@ import pandas as pd
 
 
 cb_path = "../../esg_classification/models/model-cb/run1/models/state_dict/model_cb_sd.pt"
+cb_1024_path = "../../esg_classification/models/model-cb-long/run1/models/state_dict/camembert_long_state_dict.pt"
 cbl_path = "../../esg_classification/models/model-cbl/run1/models/state_dict/cb_large_model1_sd.pt"
 cbl_1024_path = "../../esg_classification/models/model-cbl-long/run1/models/state_dict/cbl_model_long_sd.pt"
 
@@ -17,6 +18,7 @@ parser = argparse.ArgumentParser(description='Predict directory of PV files')
 
 
 parser.add_argument('--input_dir', type=str, default="./data/csv_data/nyon_2023/", help='directory path to the PV files')
+parser.add_argument('--output_dir', type=str, default="./data/csv_data/nyon_2023/prediction_results/", help='directory path to save the prediction results')
 
 args = parser.parse_args()
 
@@ -33,9 +35,10 @@ def predict_dir(input_dir):
     # list_input_dirs = [nyon_2023_input_dir, vevey_2022_input_dir, vevey_2023_input_dir]
     
 
-    predictor = ESGPredictor(cb_path, cbl_path, cbl_1024_path)
+    predictor = ESGPredictor(cb_path,cb_1024_path, cbl_path, cbl_1024_path)
     
-    output_dir = input_dir + "prediction_results/"
+    # output_dir = input_dir + "prediction_results/"
+    output_dir = args.output_dir
     if not os.path.exists(output_dir): os.makedirs(output_dir)
     
     # 2. loop through .csv files in folder input_dir
@@ -50,3 +53,7 @@ def predict_dir(input_dir):
             print(f"Skipping directory: {filename}")
     
     print(f"Predictions saved to {output_dir}")
+
+
+if __name__ == "__main__":
+    predict_dir(args.input_dir)
