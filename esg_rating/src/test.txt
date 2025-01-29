@@ -1,2 +1,0 @@
-- add example of each models classification results and the combined result
-- tba
